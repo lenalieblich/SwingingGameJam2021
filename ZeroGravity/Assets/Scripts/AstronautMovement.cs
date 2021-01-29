@@ -5,6 +5,8 @@ public class AstronautMovement : MonoBehaviour
     Rigidbody2D rb;
     Vector2 x, y;
 
+    AstronautOxygen oxygen;
+
     [SerializeField]
     float force = 0.1f;
     Vector2 forceVector;
@@ -16,6 +18,8 @@ public class AstronautMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         forceVector = new Vector2(force, force);
+
+        oxygen = GetComponent<AstronautOxygen>();
     }
 
     void Update()
@@ -25,7 +29,9 @@ public class AstronautMovement : MonoBehaviour
 
         if (Mathf.Abs(x.x) > 0f || Mathf.Abs(y.y) > 0f)
         {
-            rb.AddForce((x + y).normalized * forceVector);
+            Vector2 usedforce = (x + y).normalized * forceVector;
+            rb.AddForce(usedforce);
+            oxygen.UseOxygen(usedforce.magnitude);
         }
         else if(rb.velocity.magnitude < minimumSpeed)
         {
