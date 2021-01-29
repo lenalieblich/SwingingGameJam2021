@@ -274,9 +274,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oxygenText: {fileID: 979595716}
-  maximumOxygenLevel: 500
+  maximumOxygenLevel: 100
   breathingPerSecond: 0.1
-  oxygenUseMultiplier: 5
+  oxygenUseMultiplier: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

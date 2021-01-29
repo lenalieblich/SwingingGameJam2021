@@ -9,7 +9,7 @@ public class AstronautOxygen : MonoBehaviour
     Text oxygenText;
 
     [SerializeField]
-    float maximumOxygenLevel = 500f;
+    float maximumOxygenLevel = 100f;
 
     [SerializeField]
     float breathingPerSecond = .5f;
