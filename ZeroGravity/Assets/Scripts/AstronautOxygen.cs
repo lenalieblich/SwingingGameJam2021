@@ -3,21 +3,38 @@ using UnityEngine.UI;
 
 public class AstronautOxygen : MonoBehaviour
 {
-    [SerializeField]
-    private Text oxygenText;
+    private float oxygenLevel;
 
     [SerializeField]
-    private float oxygenLevel = 500f;
+    Text oxygenText;
 
     [SerializeField]
-    private float breathingPerSecond = .5f;
+    float maximumOxygenLevel = 500f;
 
     [SerializeField]
-    private float oxygenUseMultiplier = 1f;
+    float breathingPerSecond = .5f;
+
+    [SerializeField]
+    float oxygenUseMultiplier = 1f;
+
+    void Start()
+    {
+        oxygenLevel = maximumOxygenLevel;
+    }
 
     public void UseOxygen(float force)
     {
         oxygenLevel -= oxygenUseMultiplier * force * Time.deltaTime;
+    }
+
+    public void AddOxygen(float oxygenAmount)
+    {
+        oxygenLevel += oxygenAmount;
+
+        if (oxygenLevel > maximumOxygenLevel)
+        {
+            oxygenLevel = maximumOxygenLevel;
+        }
     }
 
     void Update()
@@ -26,6 +43,16 @@ public class AstronautOxygen : MonoBehaviour
         oxygenLevel -= breathingPerSecond * Time.deltaTime;
 
         // display oxygen level
-        oxygenText.text = "Oxygen: " + Mathf.RoundToInt(oxygenLevel);
+        oxygenText.text = "O2: " + Mathf.RoundToInt(oxygenLevel);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        OxygenBottle oxygenBottle = collision.gameObject.GetComponent<OxygenBottle>();
+
+        if (oxygenBottle != null)
+        {
+            AddOxygen(oxygenBottle.OxygenAmount);
+        }
     }
 }
