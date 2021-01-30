@@ -7,7 +7,6 @@ using PlayFab.ClientModels;
 // reference: https://docs.microsoft.com/de-de/gaming/playfab/features/social/tournaments-leaderboards/quickstart
 public class Leaderboard : MonoBehaviour
 {
-
     private static Leaderboard _instance;
 
     public static Leaderboard Instance { get { return _instance; } }

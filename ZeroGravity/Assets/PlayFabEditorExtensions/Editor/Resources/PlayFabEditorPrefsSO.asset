@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d0199c11aa6f514784c5c69cd8378d8, type: 3}
   m_Name: PlayFabEditorPrefsSO
   m_EditorClassIdentifier: 
-  DevAccountEmail: jonaskemper@googlemail.com
-  DevAccountToken: 8tnhijig6itsd7eh1cyzr9drmhgm5sx3ac3n4cdzqa8nuoc769z4sbd3xw1qqwcfjcrummaputhtz86dkzxm8x9te8qqto4jd8ffu7h8d5xqbwpw4ui8qb774kxfwm9urief65qm4uns96ts4mhf9kqr4xjc6jsddjm11wjt6uur6m8mkgftaq8te1x1fxi9xceo1i98
+  DevAccountEmail: 
+  DevAccountToken: 
   SelectedStudio: Global Gam Jam no2panic
   SdkPath: Assets/PlayFabSDK
   EdExPath: 
