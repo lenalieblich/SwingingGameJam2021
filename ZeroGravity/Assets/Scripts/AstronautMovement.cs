@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class AstronautMovement : MonoBehaviour
 {
@@ -59,15 +60,15 @@ public class AstronautMovement : MonoBehaviour
     {
         if (collision.CompareTag("PowerUp"))
         {
-            SpeedBoost collectible = collision.GetComponent<SpeedBoost>();
-            if (collectible != null)
+            SpeedBoost powerup = collision.GetComponent<SpeedBoost>();
+            if (powerup != null)
             {
-                StartCoroutine(SetAccelerationForSeconds(collectible.accelerationMultiplier, collectible.timeInSeconds));
+                StartCoroutine(SetAccelerationForSeconds(powerup.accelerationMultiplier, powerup.timeInSeconds));
             }
-        }
-        else if (collision.CompareTag("Spaceship"))
-        {
-            Debug.Log("You did it. You crazy son of a bitch, you did it.");
+            else
+            {
+                Debug.LogError("SpeedBoost Component is missing.");
+            }
         }
     }
 
@@ -76,6 +77,11 @@ public class AstronautMovement : MonoBehaviour
         this.accelerationMultiplier = accelerationMultiplier;
         yield return new WaitForSeconds(timeInSeconds);
         this.accelerationMultiplier = 1f;
+    }
+
+    public void Stop()
+    {
+        rb.velocity = new Vector2(0f, 0f);
     }
 
     public void CanMove(bool canMove)
