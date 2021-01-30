@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class gameLogic : MonoBehaviour
+public class DeathCountdown : MonoBehaviour
 {
     float timer;
     float tact;
@@ -17,27 +17,35 @@ public class gameLogic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        startCountDown(10);
         maskPos = mask.transform.localPosition;
-
-
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (countdown) { StartCoroutine("count"); showCountDown(); mask.transform.localPosition = Vector2.Lerp(mask.transform.localPosition, maskPos, 0.1f); }
-
-        
+        if (countdown) { 
+            StartCoroutine("count"); 
+            showCountDown(); 
+            mask.transform.localPosition = Vector2.Lerp(mask.transform.localPosition, maskPos, 0.1f); 
+        }
     }
 
-    private void startCountDown (int t)
+    public void startCountDown (int t)
     {
         timer = t;
         startTimer = t;
         tact = 0;
         countdown = true;
+    }
+
+    public void stopCountDown()
+    {
+        countdown = false;
+    }
+
+    public bool isRunning()
+    {
+        return countdown;
     }
 
     private IEnumerator count ()
@@ -61,5 +69,4 @@ public class gameLogic : MonoBehaviour
             maskPos = new Vector2(mov, mask.transform.localPosition.y);
         }
     }
-
 }

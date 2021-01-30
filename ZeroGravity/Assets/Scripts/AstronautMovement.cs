@@ -17,6 +17,11 @@ public class AstronautMovement : MonoBehaviour
     [SerializeField]
     float minimumSpeed = 0.1f;
 
+    bool canMove = true;
+
+    [SerializeField]
+    float maximumImpactVelocity = 1f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,6 +35,14 @@ public class AstronautMovement : MonoBehaviour
         x = transform.right * Input.GetAxis("Horizontal");
         y = transform.up * Input.GetAxis("Vertical");
 
+        if(canMove)
+        {
+            Move();
+        }
+    }
+
+    private void Move()
+    {
         if (Mathf.Abs(x.x) > 0f || Mathf.Abs(y.y) > 0f)
         {
             Vector2 usedforce = (x + y).normalized * accelerationVector;
@@ -52,6 +65,10 @@ public class AstronautMovement : MonoBehaviour
                 StartCoroutine(SetAccelerationForSeconds(collectible.accelerationMultiplier, collectible.timeInSeconds));
             }
         }
+        else if (collision.CompareTag("Spaceship"))
+        {
+            Debug.Log("You did it. You crazy son of a bitch, you did it.");
+        }
     }
 
     private IEnumerator SetAccelerationForSeconds(float accelerationMultiplier, float timeInSeconds)
@@ -59,5 +76,28 @@ public class AstronautMovement : MonoBehaviour
         this.accelerationMultiplier = accelerationMultiplier;
         yield return new WaitForSeconds(timeInSeconds);
         this.accelerationMultiplier = 1f;
+    }
+
+    public void CanMove(bool canMove)
+    {
+        this.canMove = canMove;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Asteroid"))
+        {
+            if (collision.relativeVelocity.magnitude > maximumImpactVelocity)
+            {
+                Impact();
+            }
+        }
+    }
+
+    private void Impact()
+    {
+        canMove = false;
+        astronautOxygen.DepleteOxygen();
+        Debug.Log("You've had quite the impact there..");
     }
 }
