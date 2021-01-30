@@ -19,10 +19,5 @@ MonoBehaviour:
   EdExPath: 
   LocalCloudScriptPath: 
   PanelIsShown: 0
-<<<<<<< HEAD
   curMainMenuIdx: 0
   curSubMenuIdx: 0
-=======
-  curMainMenuIdx: 1
-  curSubMenuIdx: 1
->>>>>>> remotes/origin/develop
