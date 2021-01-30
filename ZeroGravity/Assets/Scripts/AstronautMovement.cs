@@ -9,6 +9,7 @@ public class AstronautMovement : MonoBehaviour
     Vector2 x, y;
 
     AstronautOxygen astronautOxygen;
+    AstronautScore astronautScore;
 
     [SerializeField]
     float acceleration = 0.1f;
@@ -19,12 +20,15 @@ public class AstronautMovement : MonoBehaviour
     float minimumSpeed = 0.1f;
 
     bool canMove = true;
-    bool impacted = false;
 
     [SerializeField]
     float maximumImpactVelocity = 1f;
 
+    Vector2 gravitationalPull = Vector2.zero;
+
     /*
+    bool impacted = false;
+
     [SerializeField]
     float impactRicochetAcceleration = 5f;
     Vector2 reverseImpactVector;
@@ -36,6 +40,7 @@ public class AstronautMovement : MonoBehaviour
         accelerationVector = new Vector2(acceleration, acceleration);
 
         astronautOxygen = GetComponent<AstronautOxygen>();
+        astronautScore = GetComponent<AstronautScore>();
     }
 
     void Update()
@@ -47,6 +52,8 @@ public class AstronautMovement : MonoBehaviour
         {
             Move();
         }
+
+        AddGravitationalPull();
 
         /*
         if (impacted)
@@ -70,6 +77,12 @@ public class AstronautMovement : MonoBehaviour
         }
     }
 
+    private void AddGravitationalPull()
+    {
+        rb.AddForce(gravitationalPull);
+        gravitationalPull = Vector2.zero;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PowerUp"))
@@ -82,6 +95,24 @@ public class AstronautMovement : MonoBehaviour
             else
             {
                 Debug.LogError("SpeedBoost Component is missing.");
+            }
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("BlackHole"))
+        {
+            BlackHole blackHole = collision.GetComponent<BlackHole>();
+            if (blackHole != null)
+            {
+                float distance = Vector2.Distance(transform.position, blackHole.transform.position);
+                float intensity = 1 / (distance * distance);
+
+                Vector2 multiplier = new Vector2(blackHole.gravity * intensity, blackHole.gravity * intensity);
+                Vector2 towards = (blackHole.transform.position - rb.transform.position).normalized;
+
+                gravitationalPull = towards * multiplier;
             }
         }
     }
@@ -115,11 +146,18 @@ public class AstronautMovement : MonoBehaviour
                 Impact();
             }
         }
+
+        if (collision.collider.CompareTag("BlackHole"))
+        {
+            Debug.Log("That wasn't a good decision..");
+            CanMove(false);
+            astronautScore.GameLost();
+        }
     }
 
     private void Impact()
     {
-        impacted = true;
+        // impacted = true;
         astronautOxygen.DepleteOxygen();
     }
 }
