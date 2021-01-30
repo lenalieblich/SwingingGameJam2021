@@ -16,6 +16,6 @@ public class OxygenBottle : MonoBehaviour
         Destroy(gameObject);
 
         // update leaderboard
-        Leaderboard.Instance.SubmitScore(oxygenAmount);
+        PlayFabManager.SubmitScore(oxygenAmount);
     }
 }
