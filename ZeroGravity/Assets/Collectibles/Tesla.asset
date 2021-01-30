@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Tesla Roadster
   description: wroooom
   score: 2018
-  sprite: {fileID: 0}
+  sprite: {fileID: 2747690628134850419, guid: c5c30a617a2dadb478994c4163d20ed0, type: 3}
   colliderRadius: 5
