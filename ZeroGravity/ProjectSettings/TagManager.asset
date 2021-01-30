@@ -8,6 +8,7 @@ TagManager:
   - Oxygen
   - PowerUp
   - Asteroid
+  - Spaceship
   layers:
   - Default
   - TransparentFX

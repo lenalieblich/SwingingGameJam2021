@@ -39,7 +39,6 @@ public class AstronautMovement : MonoBehaviour
         {
             Move();
         }
-
     }
 
     private void Move()
@@ -65,6 +64,10 @@ public class AstronautMovement : MonoBehaviour
             {
                 StartCoroutine(SetAccelerationForSeconds(collectible.accelerationMultiplier, collectible.timeInSeconds));
             }
+        }
+        else if (collision.CompareTag("Spaceship"))
+        {
+            Debug.Log("You did it. You crazy son of a bitch, you did it.");
         }
     }
 
