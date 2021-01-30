@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class AstronautMovement : MonoBehaviour
 {
@@ -18,9 +19,16 @@ public class AstronautMovement : MonoBehaviour
     float minimumSpeed = 0.1f;
 
     bool canMove = true;
+    bool impacted = false;
 
     [SerializeField]
     float maximumImpactVelocity = 1f;
+
+    /*
+    [SerializeField]
+    float impactRicochetAcceleration = 5f;
+    Vector2 reverseImpactVector;
+    */
 
     void Start()
     {
@@ -39,6 +47,13 @@ public class AstronautMovement : MonoBehaviour
         {
             Move();
         }
+
+        /*
+        if (impacted)
+        {
+            rb.AddForce(reverseImpactVector * new Vector2(impactRicochetAcceleration, impactRicochetAcceleration));
+        }
+        */
     }
 
     private void Move()
@@ -59,15 +74,15 @@ public class AstronautMovement : MonoBehaviour
     {
         if (collision.CompareTag("PowerUp"))
         {
-            SpeedBoost collectible = collision.GetComponent<SpeedBoost>();
-            if (collectible != null)
+            SpeedBoost powerup = collision.GetComponent<SpeedBoost>();
+            if (powerup != null)
             {
-                StartCoroutine(SetAccelerationForSeconds(collectible.accelerationMultiplier, collectible.timeInSeconds));
+                StartCoroutine(SetAccelerationForSeconds(powerup.accelerationMultiplier, powerup.timeInSeconds));
             }
-        }
-        else if (collision.CompareTag("Spaceship"))
-        {
-            Debug.Log("You did it. You crazy son of a bitch, you did it.");
+            else
+            {
+                Debug.LogError("SpeedBoost Component is missing.");
+            }
         }
     }
 
@@ -76,6 +91,11 @@ public class AstronautMovement : MonoBehaviour
         this.accelerationMultiplier = accelerationMultiplier;
         yield return new WaitForSeconds(timeInSeconds);
         this.accelerationMultiplier = 1f;
+    }
+
+    public void Stop()
+    {
+        rb.velocity = new Vector2(0f, 0f);
     }
 
     public void CanMove(bool canMove)
@@ -89,6 +109,9 @@ public class AstronautMovement : MonoBehaviour
         {
             if (collision.relativeVelocity.magnitude > maximumImpactVelocity)
             {
+                //reverseImpactVector = Vector3.Reflect(rb.velocity, -collision.contacts[0].normal);
+                //Debug.Log(reverseImpactVector);
+
                 Impact();
             }
         }
@@ -96,8 +119,7 @@ public class AstronautMovement : MonoBehaviour
 
     private void Impact()
     {
-        canMove = false;
+        impacted = true;
         astronautOxygen.DepleteOxygen();
-        Debug.Log("You've had quite the impact there..");
     }
 }

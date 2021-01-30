@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 241090102}
   - component: {fileID: 241090106}
   - component: {fileID: 241090108}
+  - component: {fileID: 241090107}
   m_Layer: 0
   m_Name: Astronaut
   m_TagString: Untagged
@@ -263,6 +264,22 @@ MonoBehaviour:
   acceleration: 0.1
   minimumSpeed: 0.15
   maximumImpactVelocity: 1
+--- !u!114 &241090107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241090101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3620e6cc4c079f49afa11257c54c538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  astronautData: {fileID: 11400000, guid: b07d1d99faddddb4ea1eef0a145ed359, type: 2}
+  weightFactorDistanceTravelled: 1
+  weightFactorRemainingOxygen: 1
+  scoreForSpaceshipReached: 1000
 --- !u!114 &241090108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,7 +296,7 @@ MonoBehaviour:
   initialOxygenLevel: 50
   maximumOxygenLevel: 100
   breathingPerSecond: 0.5
-  oxygenUseMultiplier: 5
+  oxygenUseMultiplier: 10
   oxygenDepletionRatePerSecond: 10
   deathCountdownRenderer: {fileID: 1180972079}
 --- !u!1 &519420028
@@ -1284,3 +1301,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oxygenAmount: 50
+--- !u!1001 &414802025229905852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414802025580734180, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734180, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734180, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734180, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734180, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734180, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734180, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734180, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734180, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734180, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734180, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734181, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 414802025580734186, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: m_Name
+      value: Collectible
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509891625376661587, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
+      propertyPath: collectible
+      value: 
+      objectReference: {fileID: 11400000, guid: 656895748ebeaa3499453f057cd334d7, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a7ce727257679d4cb70c04587db4950, type: 3}
