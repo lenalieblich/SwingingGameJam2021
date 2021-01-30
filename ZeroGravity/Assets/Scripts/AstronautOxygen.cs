@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +10,10 @@ public class AstronautOxygen : MonoBehaviour
     Text oxygenText;
 
     [SerializeField]
-    float maximumOxygenLevel = 100f;
+    float initialOxygenLevel = 1f;
+
+    [SerializeField]
+    float maximumOxygenLevel = 50f;
 
     [SerializeField]
     float breathingPerSecond = .5f;
@@ -17,14 +21,32 @@ public class AstronautOxygen : MonoBehaviour
     [SerializeField]
     float oxygenUseMultiplier = 1f;
 
+    [SerializeField]
+    float oxygenDepletionRatePerSecond = 100f;
+
+    DeathCountdown deathCountdown;
+    bool suffocating = false;
+    bool suffocated = false;
+
+    [SerializeField]
+    SpriteRenderer deathCountdownRenderer;
+
+    AstronautMovement astronautMovement;
+
     void Start()
     {
-        oxygenLevel = maximumOxygenLevel;
+        oxygenLevel = initialOxygenLevel;
+
+        deathCountdown = GetComponentInChildren<DeathCountdown>();
+        astronautMovement = GetComponent<AstronautMovement>();
+
+        // TODO disable deathCountdownRenderer
+        deathCountdownRenderer.enabled = false;
     }
 
     public void UseOxygen(float force)
     {
-        oxygenLevel -= oxygenUseMultiplier * force * Time.deltaTime;
+        ReduceOxygen(oxygenUseMultiplier * force * Time.deltaTime);
     }
 
     public void AddOxygen(float oxygenAmount)
@@ -37,13 +59,60 @@ public class AstronautOxygen : MonoBehaviour
         }
     }
 
+    private void ReduceOxygen(float oxygenAmount)
+    {
+        oxygenLevel -= oxygenAmount;
+
+        if(oxygenLevel < 0f)
+        {
+            oxygenLevel = 0f;
+        }
+    }
+
+    public void DepleteOxygen()
+    {
+        StartCoroutine(DepleteOxygenSlowly());
+    }
+
+    private IEnumerator DepleteOxygenSlowly()
+    {
+        while(oxygenLevel > 0f)
+        {
+            ReduceOxygen(oxygenDepletionRatePerSecond * Time.deltaTime);
+            yield return null;
+        }
+    }
+
     void Update()
     {
         // breathing
-        oxygenLevel -= breathingPerSecond * Time.deltaTime;
+        ReduceOxygen(breathingPerSecond * Time.deltaTime);
 
         // display oxygen level
         oxygenText.text = "O2: " + Mathf.RoundToInt(oxygenLevel);
+
+        // suffocation
+        if(!suffocating && oxygenLevel == 0f)
+        {
+            deathCountdown.startCountDown(10);
+            // TODO enable deathCountdownRenderer
+            deathCountdownRenderer.enabled = true;
+            astronautMovement.CanMove(false);
+            suffocating = true;
+        }
+        else if(suffocating && oxygenLevel > 0f)
+        {
+            deathCountdown.stopCountDown();
+            // TODO disable deathCountdownRenderer
+            deathCountdownRenderer.enabled = false;
+            astronautMovement.CanMove(true);
+            suffocating = false;
+        }
+
+        if(suffocating && !deathCountdown.isRunning())
+        {
+            DeathBySuffocation();
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -56,6 +125,16 @@ public class AstronautOxygen : MonoBehaviour
             {
                 AddOxygen(oxygenBottle.OxygenAmount);
             }
+        }
+    }
+
+    void DeathBySuffocation()
+    {
+        if(!suffocated)
+        {
+            // TODO animate, jump to menu
+            Debug.Log("You've suffocated.. much sad.");
+            suffocated = true;
         }
     }
 }
