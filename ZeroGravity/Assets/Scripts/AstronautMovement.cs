@@ -19,9 +19,16 @@ public class AstronautMovement : MonoBehaviour
     float minimumSpeed = 0.1f;
 
     bool canMove = true;
+    bool impacted = false;
 
     [SerializeField]
     float maximumImpactVelocity = 1f;
+
+    /*
+    [SerializeField]
+    float impactRicochetAcceleration = 5f;
+    Vector2 reverseImpactVector;
+    */
 
     void Start()
     {
@@ -40,6 +47,13 @@ public class AstronautMovement : MonoBehaviour
         {
             Move();
         }
+
+        /*
+        if (impacted)
+        {
+            rb.AddForce(reverseImpactVector * new Vector2(impactRicochetAcceleration, impactRicochetAcceleration));
+        }
+        */
     }
 
     private void Move()
@@ -95,6 +109,9 @@ public class AstronautMovement : MonoBehaviour
         {
             if (collision.relativeVelocity.magnitude > maximumImpactVelocity)
             {
+                //reverseImpactVector = Vector3.Reflect(rb.velocity, -collision.contacts[0].normal);
+                //Debug.Log(reverseImpactVector);
+
                 Impact();
             }
         }
@@ -102,7 +119,7 @@ public class AstronautMovement : MonoBehaviour
 
     private void Impact()
     {
+        impacted = true;
         astronautOxygen.DepleteOxygen();
-        Debug.Log("You've had quite the impact there..");
     }
 }
