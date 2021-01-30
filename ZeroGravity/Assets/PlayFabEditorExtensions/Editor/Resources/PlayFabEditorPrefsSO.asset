@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DevAccountEmail: 
   DevAccountToken: 
-  SelectedStudio: Global Gam Jam no2panic
-  SdkPath: Assets/PlayFabSDK
+  SelectedStudio: 
+  SdkPath: 
   EdExPath: 
   LocalCloudScriptPath: 
-  PanelIsShown: 1
-  curMainMenuIdx: 1
-  curSubMenuIdx: 1
+  PanelIsShown: 0
+  curMainMenuIdx: 0
+  curSubMenuIdx: 0
