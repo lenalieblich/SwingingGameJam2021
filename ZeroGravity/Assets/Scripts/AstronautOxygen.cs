@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,13 +10,19 @@ public class AstronautOxygen : MonoBehaviour
     Text oxygenText;
 
     [SerializeField]
-    float maximumOxygenLevel = 100f;
+    float initialOxygenLevel = 1f;
+
+    [SerializeField]
+    float maximumOxygenLevel = 50f;
 
     [SerializeField]
     float breathingPerSecond = .5f;
 
     [SerializeField]
     float oxygenUseMultiplier = 1f;
+
+    [SerializeField]
+    float oxygenDepletionRatePerSecond = 100f;
 
     DeathCountdown deathCountdown;
     bool suffocating = false;
@@ -28,7 +35,7 @@ public class AstronautOxygen : MonoBehaviour
 
     void Start()
     {
-        oxygenLevel = maximumOxygenLevel;
+        oxygenLevel = initialOxygenLevel;
 
         deathCountdown = GetComponentInChildren<DeathCountdown>();
         astronautMovement = GetComponent<AstronautMovement>();
@@ -59,6 +66,20 @@ public class AstronautOxygen : MonoBehaviour
         if(oxygenLevel < 0f)
         {
             oxygenLevel = 0f;
+        }
+    }
+
+    public void DepleteOxygen()
+    {
+        StartCoroutine(DepleteOxygenSlowly());
+    }
+
+    private IEnumerator DepleteOxygenSlowly()
+    {
+        while(oxygenLevel > 0f)
+        {
+            ReduceOxygen(oxygenDepletionRatePerSecond * Time.deltaTime);
+            yield return null;
         }
     }
 

@@ -19,6 +19,9 @@ public class AstronautMovement : MonoBehaviour
 
     bool canMove = true;
 
+    [SerializeField]
+    float maximumImpactVelocity = 1f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -75,5 +78,23 @@ public class AstronautMovement : MonoBehaviour
     public void CanMove(bool canMove)
     {
         this.canMove = canMove;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Asteroid"))
+        {
+            if (collision.relativeVelocity.magnitude > maximumImpactVelocity)
+            {
+                Impact();
+            }
+        }
+    }
+
+    private void Impact()
+    {
+        canMove = false;
+        astronautOxygen.DepleteOxygen();
+        Debug.Log("You've had quite the impact there..");
     }
 }
