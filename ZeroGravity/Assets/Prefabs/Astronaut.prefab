@@ -141,6 +141,7 @@ MonoBehaviour:
   acceleration: 0.5
   minimumSpeed: 0.15
   maximumImpactVelocity: 1
+  impactRicochetAcceleration: 1
 --- !u!114 &3025697089704381455
 MonoBehaviour:
   m_ObjectHideFlags: 0

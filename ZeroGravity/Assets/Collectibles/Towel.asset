@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1cbdbe206cc2124a8db85d1a3fa9d0c, type: 3}
-  m_Name: Tesla
+  m_Name: Towel
   m_EditorClassIdentifier: 
-  name: Tesla Roadster
-  description: To Mars and beyond!
-  score: 2018
+  name: Towel
+  description: A towel, it says, is about the most massively useful thing an interstellar
+    hitchhiker can have. [The Hitchhiker's Guide to the Galaxy]
+  score: 42
   sprite: {fileID: 0}
   colliderRadius: 5
