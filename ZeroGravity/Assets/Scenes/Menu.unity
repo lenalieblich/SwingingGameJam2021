@@ -935,7 +935,6 @@ GameObject:
   - component: {fileID: 1092150021}
   - component: {fileID: 1092150022}
   - component: {fileID: 1092150023}
-  - component: {fileID: 1092150024}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -992,22 +991,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07bcbb878d4fb4a1ba3e0a4d63fb00ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1092150024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1092150020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ca0dd75a12b34194bc4a09386f28e8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerName: 
-  saveName: 
-  inputText: {fileID: 0}
-  loadedName: {fileID: 0}
 --- !u!1 &1181722230
 GameObject:
   m_ObjectHideFlags: 0

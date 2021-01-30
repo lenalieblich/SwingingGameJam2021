@@ -14,7 +14,7 @@ public class PlayFabLogin : MonoBehaviour
             */
             PlayFabSettings.staticSettings.TitleId = "42";
         }
-        var request = new LoginWithCustomIDRequest { CustomId = "GettingStartedGuide", CreateAccount = true };
+        var request = new LoginWithCustomIDRequest { CustomId = SystemInfo.deviceUniqueIdentifier, CreateAccount = true };
         PlayFabClientAPI.LoginWithCustomID(request, OnLoginSuccess, OnLoginFailure);
     }
 

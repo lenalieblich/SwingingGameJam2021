@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using PlayFab;
+using PlayFab.ClientModels;
 public class PlayerName : MonoBehaviour
 {
 
@@ -29,5 +31,14 @@ public class PlayerName : MonoBehaviour
     {
         saveName = inputText.text;
         PlayerPrefs.SetString("name", saveName);
+
+        PlayFabClientAPI.UpdateUserTitleDisplayName(new UpdateUserTitleDisplayNameRequest
+        {
+            DisplayName = inputText.text
+        }, result =>
+        {
+            Debug.Log("The player's display name is now: " + result.DisplayName);
+        }, error => Debug.LogError(error.GenerateErrorReport()));
+
     }
 }
