@@ -9,7 +9,7 @@ public class PlayFabManager : MonoBehaviour
     // Flag set after successfull Playfab Login
     public static bool IsLoggedIn = false;
 
-    public static void Login(System.Action onSuccess, System.Action onFailed)
+    public static void Login()
     {
         if (string.IsNullOrEmpty(PlayFabSettings.staticSettings.TitleId))
         {
@@ -26,14 +26,12 @@ public class PlayFabManager : MonoBehaviour
             {
                 IsLoggedIn = true;
                 Debug.Log("Congratulations, you made your first successful API call!");
-                onSuccess();
             },
             (PlayFabError error) =>
             {
                 Debug.LogWarning("Something went wrong with your first API call.  :(");
                 Debug.LogError("Here's some debug information:");
                 Debug.LogError(error.GenerateErrorReport());
-                onFailed();
             }
         );
     }
