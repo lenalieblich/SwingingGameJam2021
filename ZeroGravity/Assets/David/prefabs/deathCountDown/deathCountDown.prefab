@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9372549, g: 0.49411765, b: 0.2901961, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -125,8 +125,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7765855562281448225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.75999993, y: 3.45, z: -9.454509}
-  m_LocalScale: {x: 0.626, y: 2.0866666, z: 1}
+  m_LocalPosition: {x: -0.495, y: 1.87, z: -9.454509}
+  m_LocalScale: {x: 0.1, y: 0.35, z: 1}
   m_Children: []
   m_Father: {fileID: 7765855562226058418}
   m_RootOrder: 1
@@ -180,20 +180,23 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7765855562281448225}
-  m_Text: 
+  m_Text: '2
+
+
+'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 0
+  m_FontSize: 40
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4283072239
 --- !u!1 &7765855563551141118
 GameObject:
   m_ObjectHideFlags: 0

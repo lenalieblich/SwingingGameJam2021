@@ -9,7 +9,10 @@ public class CollectibleDisplay : MonoBehaviour
 
     void Start()
     {
-        GetComponent<SpriteRenderer>().sprite = collectible.sprite;
+        if(collectible.sprite != null)
+        {
+            GetComponent<SpriteRenderer>().sprite = collectible.sprite;
+        }
         GetComponent<CircleCollider2D>().radius = collectible.colliderRadius;
     }
 
