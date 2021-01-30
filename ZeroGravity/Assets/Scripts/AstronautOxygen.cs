@@ -90,7 +90,7 @@ public class AstronautOxygen : MonoBehaviour
         // suffocation
         if(!suffocating && OxygenLevel == 0f)
         {
-            deathCountdown.startCountDown(10);
+            deathCountdown.startCountDown(11);
             astronautMovement.CanMove(false);
             suffocating = true;
         }
