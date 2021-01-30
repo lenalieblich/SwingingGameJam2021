@@ -9,6 +9,7 @@ TagManager:
   - PowerUp
   - Asteroid
   - Spaceship
+  - Collectible
   layers:
   - Default
   - TransparentFX
