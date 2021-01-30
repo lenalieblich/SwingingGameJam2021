@@ -20,19 +20,19 @@ public class AstronautMovement : MonoBehaviour
     float minimumSpeed = 0.1f;
 
     bool canMove = true;
+    bool invincible = false;
+    bool intangible = false;
+
+    Vector2 gravitationalPull = Vector2.zero;
 
     [SerializeField]
     float maximumImpactVelocity = 1f;
 
-    Vector2 gravitationalPull = Vector2.zero;
-
-    /*
-    bool impacted = false;
-
     [SerializeField]
     float impactRicochetAcceleration = 5f;
+
     Vector2 reverseImpactVector;
-    */
+    bool impacted = false;
 
     void Start()
     {
@@ -51,16 +51,14 @@ public class AstronautMovement : MonoBehaviour
         if(canMove)
         {
             Move();
+
+            if (impacted)
+            {
+                rb.AddForce(reverseImpactVector * new Vector2(impactRicochetAcceleration, impactRicochetAcceleration));
+            }
         }
 
         AddGravitationalPull();
-
-        /*
-        if (impacted)
-        {
-            rb.AddForce(reverseImpactVector * new Vector2(impactRicochetAcceleration, impactRicochetAcceleration));
-        }
-        */
     }
 
     private void Move()
@@ -79,7 +77,10 @@ public class AstronautMovement : MonoBehaviour
 
     private void AddGravitationalPull()
     {
-        rb.AddForce(gravitationalPull);
+        if(!intangible)
+        {
+            rb.AddForce(gravitationalPull);
+        }
         gravitationalPull = Vector2.zero;
     }
 
@@ -87,14 +88,29 @@ public class AstronautMovement : MonoBehaviour
     {
         if (collision.CompareTag("PowerUp"))
         {
-            SpeedBoost powerup = collision.GetComponent<SpeedBoost>();
+            PowerUp powerup = collision.GetComponent<PowerUp>();
+
             if (powerup != null)
             {
-                StartCoroutine(SetAccelerationForSeconds(powerup.accelerationMultiplier, powerup.timeInSeconds));
+                if (powerup is SpeedBoost)
+                {
+                    SpeedBoost speedBoost = (SpeedBoost)powerup;
+                    StartCoroutine(ModifyAccelerationForSeconds(speedBoost.accelerationMultiplier, speedBoost.timeInSeconds));
+                }
+                else if (powerup is Invincibility) 
+                {
+                    Invincibility invincibility = (Invincibility)powerup;
+                    StartCoroutine(SetInvincibilityForSeconds(invincibility.timeInSeconds));
+                }
+                else if (powerup is Intangibility)
+                {
+                    Intangibility intangibility = (Intangibility)powerup;
+                    StartCoroutine(SetIntangibilityForSeconds(intangibility.timeInSeconds));
+                }
             }
             else
             {
-                Debug.LogError("SpeedBoost Component is missing.");
+                Debug.LogError("PowerUp Component is missing.");
             }
         }
     }
@@ -117,11 +133,31 @@ public class AstronautMovement : MonoBehaviour
         }
     }
 
-    private IEnumerator SetAccelerationForSeconds(float accelerationMultiplier, float timeInSeconds)
+    private IEnumerator ModifyAccelerationForSeconds(float accelerationMultiplier, float timeInSeconds)
     {
-        this.accelerationMultiplier = accelerationMultiplier;
+        if(!impacted) { 
+            this.accelerationMultiplier = accelerationMultiplier;
+            yield return new WaitForSeconds(timeInSeconds);
+            this.accelerationMultiplier = 1f;
+        }
+    }
+
+    private IEnumerator SetInvincibilityForSeconds(float timeInSeconds)
+    {
+        this.invincible = true;
         yield return new WaitForSeconds(timeInSeconds);
-        this.accelerationMultiplier = 1f;
+        this.invincible = false;
+    }
+
+    private IEnumerator SetIntangibilityForSeconds(float timeInSeconds)
+    {
+        this.intangible= true;
+        GetComponent<Collider2D>().enabled = false;
+        // TODO set transparency?
+        yield return new WaitForSeconds(timeInSeconds);
+        // TODO remove transparency?
+        GetComponent<Collider2D>().enabled = true;
+        this.intangible = false;
     }
 
     public void Stop()
@@ -136,28 +172,26 @@ public class AstronautMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Asteroid"))
+        if(!invincible)
         {
-            if (collision.relativeVelocity.magnitude > maximumImpactVelocity)
+            if (collision.collider.CompareTag("Asteroid"))
             {
-                //reverseImpactVector = Vector3.Reflect(rb.velocity, -collision.contacts[0].normal);
-                //Debug.Log(reverseImpactVector);
+                if (!impacted) {
+                    if (collision.relativeVelocity.magnitude > maximumImpactVelocity)
+                    {
+                        reverseImpactVector = Vector3.Reflect(-collision.relativeVelocity, collision.contacts[0].normal).normalized;
+                        astronautOxygen.DepleteOxygen();
+                        impacted = true;
+                    }
+                }
+            }
 
-                Impact();
+            if (collision.collider.CompareTag("BlackHole"))
+            {
+                Debug.Log("That wasn't a good decision..");
+                CanMove(false);
+                astronautScore.GameLost();
             }
         }
-
-        if (collision.collider.CompareTag("BlackHole"))
-        {
-            Debug.Log("That wasn't a good decision..");
-            CanMove(false);
-            astronautScore.GameLost();
-        }
-    }
-
-    private void Impact()
-    {
-        // impacted = true;
-        astronautOxygen.DepleteOxygen();
     }
 }

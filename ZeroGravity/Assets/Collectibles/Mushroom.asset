@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1cbdbe206cc2124a8db85d1a3fa9d0c, type: 3}
-  m_Name: PowerMushroom
+  m_Name: Mushroom
   m_EditorClassIdentifier: 
-  name: Power Mushroom
-  description: BLA
-  score: 50
-  sprite: {fileID: 2747690628134850419, guid: c5c30a617a2dadb478994c4163d20ed0, type: 3}
+  name: Mushroom
+  description: Why did the mushroom go to the party? Because he's a fungi!
+  score: 1337
+  sprite: {fileID: 0}
   colliderRadius: 5
