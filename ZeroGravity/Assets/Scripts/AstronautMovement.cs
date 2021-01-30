@@ -9,6 +9,7 @@ public class AstronautMovement : MonoBehaviour
     Vector2 x, y;
 
     AstronautOxygen astronautOxygen;
+    AstronautScore astronautScore;
 
     [SerializeField]
     float acceleration = 0.1f;
@@ -19,9 +20,19 @@ public class AstronautMovement : MonoBehaviour
     float minimumSpeed = 0.1f;
 
     bool canMove = true;
+    bool invincible = false;
+    bool intangible = false;
+
+    Vector2 gravitationalPull = Vector2.zero;
 
     [SerializeField]
     float maximumImpactVelocity = 1f;
+
+    [SerializeField]
+    float impactRicochetAcceleration = 5f;
+
+    Vector2 reverseImpactVector;
+    bool impacted = false;
 
     void Start()
     {
@@ -29,6 +40,7 @@ public class AstronautMovement : MonoBehaviour
         accelerationVector = new Vector2(acceleration, acceleration);
 
         astronautOxygen = GetComponent<AstronautOxygen>();
+        astronautScore = GetComponent<AstronautScore>();
     }
 
     void Update()
@@ -39,7 +51,14 @@ public class AstronautMovement : MonoBehaviour
         if(canMove)
         {
             Move();
+
+            if (impacted)
+            {
+                rb.AddForce(reverseImpactVector * new Vector2(impactRicochetAcceleration, impactRicochetAcceleration));
+            }
         }
+
+        AddGravitationalPull();
     }
 
     private void Move()
@@ -56,27 +75,89 @@ public class AstronautMovement : MonoBehaviour
         }
     }
 
+    private void AddGravitationalPull()
+    {
+        if(!intangible)
+        {
+            rb.AddForce(gravitationalPull);
+        }
+        gravitationalPull = Vector2.zero;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PowerUp"))
         {
-            SpeedBoost powerup = collision.GetComponent<SpeedBoost>();
+            PowerUp powerup = collision.GetComponent<PowerUp>();
+
             if (powerup != null)
             {
-                StartCoroutine(SetAccelerationForSeconds(powerup.accelerationMultiplier, powerup.timeInSeconds));
+                if (powerup is SpeedBoost)
+                {
+                    SpeedBoost speedBoost = (SpeedBoost)powerup;
+                    StartCoroutine(ModifyAccelerationForSeconds(speedBoost.accelerationMultiplier, speedBoost.timeInSeconds));
+                }
+                else if (powerup is Invincibility) 
+                {
+                    Invincibility invincibility = (Invincibility)powerup;
+                    StartCoroutine(SetInvincibilityForSeconds(invincibility.timeInSeconds));
+                }
+                else if (powerup is Intangibility)
+                {
+                    Intangibility intangibility = (Intangibility)powerup;
+                    StartCoroutine(SetIntangibilityForSeconds(intangibility.timeInSeconds));
+                }
             }
             else
             {
-                Debug.LogError("SpeedBoost Component is missing.");
+                Debug.LogError("PowerUp Component is missing.");
             }
         }
     }
 
-    private IEnumerator SetAccelerationForSeconds(float accelerationMultiplier, float timeInSeconds)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        this.accelerationMultiplier = accelerationMultiplier;
+        if (collision.CompareTag("BlackHole"))
+        {
+            BlackHole blackHole = collision.GetComponent<BlackHole>();
+            if (blackHole != null)
+            {
+                float distance = Vector2.Distance(transform.position, blackHole.transform.position);
+                float intensity = 1 / (distance * distance);
+
+                Vector2 multiplier = new Vector2(blackHole.gravity * intensity, blackHole.gravity * intensity);
+                Vector2 towards = (blackHole.transform.position - rb.transform.position).normalized;
+
+                gravitationalPull = towards * multiplier;
+            }
+        }
+    }
+
+    private IEnumerator ModifyAccelerationForSeconds(float accelerationMultiplier, float timeInSeconds)
+    {
+        if(!impacted) { 
+            this.accelerationMultiplier = accelerationMultiplier;
+            yield return new WaitForSeconds(timeInSeconds);
+            this.accelerationMultiplier = 1f;
+        }
+    }
+
+    private IEnumerator SetInvincibilityForSeconds(float timeInSeconds)
+    {
+        this.invincible = true;
         yield return new WaitForSeconds(timeInSeconds);
-        this.accelerationMultiplier = 1f;
+        this.invincible = false;
+    }
+
+    private IEnumerator SetIntangibilityForSeconds(float timeInSeconds)
+    {
+        this.intangible= true;
+        GetComponent<Collider2D>().enabled = false;
+        // TODO set transparency?
+        yield return new WaitForSeconds(timeInSeconds);
+        // TODO remove transparency?
+        GetComponent<Collider2D>().enabled = true;
+        this.intangible = false;
     }
 
     public void Stop()
@@ -91,18 +172,26 @@ public class AstronautMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Asteroid"))
+        if(!invincible)
         {
-            if (collision.relativeVelocity.magnitude > maximumImpactVelocity)
+            if (collision.collider.CompareTag("Asteroid"))
             {
-                Impact();
+                if (!impacted) {
+                    if (collision.relativeVelocity.magnitude > maximumImpactVelocity)
+                    {
+                        reverseImpactVector = Vector3.Reflect(-collision.relativeVelocity, collision.contacts[0].normal).normalized;
+                        astronautOxygen.DepleteOxygen();
+                        impacted = true;
+                    }
+                }
+            }
+
+            if (collision.collider.CompareTag("BlackHole"))
+            {
+                Debug.Log("That wasn't a good decision..");
+                CanMove(false);
+                astronautScore.GameLost();
             }
         }
-    }
-
-    private void Impact()
-    {
-        astronautOxygen.DepleteOxygen();
-        Debug.Log("You've had quite the impact there..");
     }
 }

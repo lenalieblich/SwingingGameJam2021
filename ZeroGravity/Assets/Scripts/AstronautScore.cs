@@ -9,8 +9,16 @@ public class AstronautScore : MonoBehaviour
     AstronautData astronautData;
 
     AstronautOxygen astronautOxygen;
-
     AstronautMovement astronautMovement;
+
+    [SerializeField]
+    float weightFactorDistanceTravelled = 1f;
+
+    [SerializeField]
+    float weightFactorRemainingOxygen = 1f;
+
+    [SerializeField]
+    float scoreForSpaceshipReached = 1000;
 
     Vector2 oldPosition;
 
@@ -47,11 +55,10 @@ public class AstronautScore : MonoBehaviour
 
     private void ComputeFinalScore()
     {
-        // SCORE
-        AddScore(astronautData.remainingOxygen);
+        AddScore(weightFactorRemainingOxygen * astronautData.remainingOxygen);
         if(astronautData.spaceshipReached)
         {
-            AddScore(1000);
+            AddScore(scoreForSpaceshipReached);
         }
     }
 
@@ -65,8 +72,7 @@ public class AstronautScore : MonoBehaviour
         float distanceTravelled = Vector2.Distance(oldPosition, transform.position);
         astronautData.distanceTravelled += distanceTravelled;
         
-        // SCORE
-        AddScore(distanceTravelled);
+        AddScore(weightFactorDistanceTravelled * distanceTravelled);
 
         oldPosition = transform.position;
     }
@@ -75,20 +81,30 @@ public class AstronautScore : MonoBehaviour
     {
         if(collision.CompareTag("Collectible"))
         {
-            Collectible collectible = collision.GetComponent<Collectible>();
+            CollectibleDisplay collectibleDisplay = collision.GetComponent<CollectibleDisplay>();
 
-            if(collectible != null)
+            if(collectibleDisplay != null)
             {
-                if(!finished) { 
-                    astronautData.collectibles.Add(collectible);
+                if(!finished) {
+                    Collectible collectible = collectibleDisplay.collectible;
+                    if (collectible != null)
+                    {
+                        if (!astronautData.collectibles.Contains(collectible))
+                        {
+                            astronautData.collectibles.Add(collectible);
+                        }
 
-                    // SCORE
-                    AddScore(collectible.score);
+                        AddScore(collectible.score);
+                    }
+                    else
+                    {
+                        Debug.LogError("Collectible component is missing.");
+                    }
                 }
             }
             else
             {
-                Debug.LogError("Collectible component is missing.");
+                Debug.LogError("CollectibleDisplay component is missing.");
             }
         }
 
