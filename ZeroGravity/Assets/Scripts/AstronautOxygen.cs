@@ -48,11 +48,14 @@ public class AstronautOxygen : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        OxygenBottle oxygenBottle = collision.gameObject.GetComponent<OxygenBottle>();
-
-        if (oxygenBottle != null)
+        if (collision.CompareTag("Oxygen"))
         {
-            AddOxygen(oxygenBottle.OxygenAmount);
+            OxygenBottle oxygenBottle = collision.gameObject.GetComponent<OxygenBottle>();
+
+            if (oxygenBottle != null)
+            {
+                AddOxygen(oxygenBottle.OxygenAmount);
+            }
         }
     }
 }
