@@ -277,6 +277,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautData: {fileID: 11400000, guid: b07d1d99faddddb4ea1eef0a145ed359, type: 2}
+  weightFactorDistanceTravelled: 1
+  weightFactorRemainingOxygen: 1
+  scoreForSpaceshipReached: 1000
 --- !u!114 &241090108
 MonoBehaviour:
   m_ObjectHideFlags: 0
