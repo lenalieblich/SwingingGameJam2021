@@ -9,16 +9,16 @@ public class gameLogic : MonoBehaviour
     float tact;
     float startTimer;
     bool countdown = false;
-    public Text txt_countDown;
+    public TextMesh txt_countDown;
     public GameObject mask;
-    public GameObject bar;
+    private Vector2 maskPos;
 
-    
+
     // Start is called before the first frame update
     void Start()
     {
         startCountDown(10);
-        Vector2 barMask = mask.transform.position;
+        maskPos = mask.transform.localPosition;
 
 
 
@@ -27,7 +27,9 @@ public class gameLogic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (countdown) { StartCoroutine("count"); showCountDown(); }
+        if (countdown) { StartCoroutine("count"); showCountDown(); mask.transform.localPosition = Vector2.Lerp(mask.transform.localPosition, maskPos, 0.1f); }
+
+        
     }
 
     private void startCountDown (int t)
@@ -41,9 +43,8 @@ public class gameLogic : MonoBehaviour
     private IEnumerator count ()
     {
         timer -= Time.deltaTime;
-        yield return new WaitUntil(() => timer<=0 );
+        yield return new WaitUntil(() => timer<=-1 );
         countdown = false;
-        Debug.Log("finish " + countdown);
     }
 
     private void showCountDown ()
@@ -56,7 +57,8 @@ public class gameLogic : MonoBehaviour
 
             float mov = mask.transform.localPosition.x;
             mov -= (1 / startTimer);
-            mask.transform.position = new Vector2(mov, mask.transform.position.y);
+            //mask.transform.localPosition = new Vector2(mov, mask.transform.localPosition.y);
+            maskPos = new Vector2(mov, mask.transform.localPosition.y);
         }
     }
 
