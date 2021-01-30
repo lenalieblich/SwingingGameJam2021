@@ -17,14 +17,29 @@ public class AstronautOxygen : MonoBehaviour
     [SerializeField]
     float oxygenUseMultiplier = 1f;
 
+    DeathCountdown deathCountdown;
+    bool suffocating = false;
+    bool suffocated = false;
+
+    [SerializeField]
+    SpriteRenderer deathCountdownRenderer;
+
+    AstronautMovement astronautMovement;
+
     void Start()
     {
         oxygenLevel = maximumOxygenLevel;
+
+        deathCountdown = GetComponentInChildren<DeathCountdown>();
+        astronautMovement = GetComponent<AstronautMovement>();
+
+        // TODO disable deathCountdownRenderer
+        deathCountdownRenderer.enabled = false;
     }
 
     public void UseOxygen(float force)
     {
-        oxygenLevel -= oxygenUseMultiplier * force * Time.deltaTime;
+        ReduceOxygen(oxygenUseMultiplier * force * Time.deltaTime);
     }
 
     public void AddOxygen(float oxygenAmount)
@@ -37,13 +52,46 @@ public class AstronautOxygen : MonoBehaviour
         }
     }
 
+    private void ReduceOxygen(float oxygenAmount)
+    {
+        oxygenLevel -= oxygenAmount;
+
+        if(oxygenLevel < 0f)
+        {
+            oxygenLevel = 0f;
+        }
+    }
+
     void Update()
     {
         // breathing
-        oxygenLevel -= breathingPerSecond * Time.deltaTime;
+        ReduceOxygen(breathingPerSecond * Time.deltaTime);
 
         // display oxygen level
         oxygenText.text = "O2: " + Mathf.RoundToInt(oxygenLevel);
+
+        // suffocation
+        if(!suffocating && oxygenLevel == 0f)
+        {
+            deathCountdown.startCountDown(10);
+            // TODO enable deathCountdownRenderer
+            deathCountdownRenderer.enabled = true;
+            astronautMovement.CanMove(false);
+            suffocating = true;
+        }
+        else if(suffocating && oxygenLevel > 0f)
+        {
+            deathCountdown.stopCountDown();
+            // TODO disable deathCountdownRenderer
+            deathCountdownRenderer.enabled = false;
+            astronautMovement.CanMove(true);
+            suffocating = false;
+        }
+
+        if(suffocating && !deathCountdown.isRunning())
+        {
+            DeathBySuffocation();
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -56,6 +104,16 @@ public class AstronautOxygen : MonoBehaviour
             {
                 AddOxygen(oxygenBottle.OxygenAmount);
             }
+        }
+    }
+
+    void DeathBySuffocation()
+    {
+        if(!suffocated)
+        {
+            // TODO animate, jump to menu
+            Debug.Log("You've suffocated.. much sad.");
+            suffocated = true;
         }
     }
 }
