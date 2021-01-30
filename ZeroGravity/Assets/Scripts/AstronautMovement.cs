@@ -102,7 +102,6 @@ public class AstronautMovement : MonoBehaviour
 
     private void Impact()
     {
-        canMove = false;
         astronautOxygen.DepleteOxygen();
         Debug.Log("You've had quite the impact there..");
     }
