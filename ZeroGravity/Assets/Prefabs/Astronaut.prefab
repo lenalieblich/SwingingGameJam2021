@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba4457692be9d944c8c036cf5e143197, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxygenText: {fileID: 0}
+  oxygenUI: {fileID: 8754080286623913515, guid: 2f955e3771e8f264a808ea845883be8e, type: 3}
   initialOxygenLevel: 50
   maximumOxygenLevel: 100
   breathingPerSecond: 0.5
@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3025697089966852687}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -20}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 3025697089704381450}
@@ -231,7 +231,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 7
   field of view: 60
   orthographic: 1
   orthographic size: 5
@@ -309,15 +309,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7765855562226058419, guid: d6358a35fd8806746ad644921565ef6f, type: 3}
+      propertyPath: m_SortingLayer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765855562226058419, guid: d6358a35fd8806746ad644921565ef6f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1615584621
+      objectReference: {fileID: 0}
     - target: {fileID: 7765855562226058421, guid: d6358a35fd8806746ad644921565ef6f, type: 3}
       propertyPath: m_Name
       value: deathCountDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765855562281448238, guid: d6358a35fd8806746ad644921565ef6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7765855562281448239, guid: d6358a35fd8806746ad644921565ef6f, type: 3}
       propertyPath: m_Text
       value: '
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765855563551141119, guid: d6358a35fd8806746ad644921565ef6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6358a35fd8806746ad644921565ef6f, type: 3}
