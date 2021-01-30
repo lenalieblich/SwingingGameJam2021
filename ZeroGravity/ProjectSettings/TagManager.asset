@@ -46,3 +46,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1777597545
+    locked: 0
+  - name: Obstacles
+    uniqueID: 1201321131
+    locked: 0
+  - name: Collectibles
+    uniqueID: 1664235225
+    locked: 0
+  - name: Oxygen
+    uniqueID: 2995074863
+    locked: 0
+  - name: Player
+    uniqueID: 2679382675
+    locked: 0
