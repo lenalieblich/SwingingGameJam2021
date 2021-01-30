@@ -4,27 +4,34 @@ using UnityEngine;
 
 public class rotation : MonoBehaviour
 {
-    public float position = 0;//von 0 bis 100
     public AnimationCurve anim;
-    public float test;
-    private float startPos = 151;
-    private float endPos = 315;
+    [HideInInspector]
+    public float position = 0;//von 0 bis 100
+
+    private float startPos = 60;
+    private float endPos = 350;
+    
 
     private void Start()
     {
         fill();
     }
 
+
     private void FixedUpdate()
     {
         updateOxygenUI();
-        test = anim.Evaluate(position);
     }
 
     public void fill ()
     {
         GetComponent<Animator>().enabled = true;
         GetComponent<Animator>().SetBool("filling", true);
+    }
+
+    public void setFillLevel (float filllevel)
+    {
+        position = filllevel;
     }
 
     private void updateOxygenUI ()

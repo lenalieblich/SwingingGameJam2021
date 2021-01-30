@@ -7,7 +7,7 @@ public class AstronautOxygen : MonoBehaviour
     public float OxygenLevel { get; private set; }
 
     [SerializeField]
-    Text oxygenText;
+    GameObject oxygenUI;
 
     [SerializeField]
     float initialOxygenLevel = 1f;
@@ -85,7 +85,8 @@ public class AstronautOxygen : MonoBehaviour
         ReduceOxygen(breathingPerSecond * Time.deltaTime);
 
         // display oxygen level
-        oxygenText.text = "O2: " + Mathf.RoundToInt(OxygenLevel);
+        //oxygenText.text = "O2: " + Mathf.RoundToInt(OxygenLevel);
+        oxygenUI.GetComponentInChildren<rotation>().setFillLevel(Mathf.RoundToInt(OxygenLevel));
 
         // suffocation
         if(!suffocating && OxygenLevel == 0f)

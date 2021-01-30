@@ -22,16 +22,16 @@ public class MiniMap : MonoBehaviour
     private float scal_x, scal_y;
     private Texture2D tex_black, tex_objs;
     private GameObject[] objs;
-    
+
     // Start is called before the first frame update
     void Start()
     {
         worldx = Vector2.Distance(mark1.position, mark2.position);
         worldy = Vector2.Distance(mark2.position, mark3.position);
-        MinMapWidth = (int) image.rectTransform.sizeDelta.x;
-        MinMapHeight = (int) image.rectTransform.sizeDelta.y;
-        scal_x = MinMapWidth/worldx;
-        scal_y = MinMapHeight/worldy;
+        MinMapWidth = (int)image.rectTransform.sizeDelta.x;
+        MinMapHeight = (int)image.rectTransform.sizeDelta.y;
+        scal_x = MinMapWidth / worldx;
+        scal_y = MinMapHeight / worldy;
         tex_black = new Texture2D(MinMapWidth, MinMapHeight, TextureFormat.ARGB32, false);
         tex_black = clearTexture(tex_black, Color.white);
         material.mainTexture = tex_black;
@@ -39,7 +39,7 @@ public class MiniMap : MonoBehaviour
         ini_objTex();
     }
 
-    private void ini_objTex ()
+    private void ini_objTex()
     {
         objs = GameObject.FindGameObjectsWithTag(TagObjs);
         tex_objs = new Texture2D(MinMapWidth, MinMapHeight, TextureFormat.ARGB32, false);
@@ -47,6 +47,41 @@ public class MiniMap : MonoBehaviour
         materialObjs.mainTexture = tex_objs;
         image.material = materialObjs;
 
+        analysePositionObjs();
+        //scanForObjs();
+    }
+
+    private void scanForObjs ()
+    {
+        Vector3 o = new Vector3(0, 0, -1);
+        RaycastHit hit;
+        Physics.Raycast(o, Vector3.forward * 2, out hit);
+
+        if (hit.transform != null)
+        {
+            Debug.Log(hit.transform.name);
+        }
+        /**
+
+        for (int x = (int)mark1.position.x; x<(int)mark2.position.x; x++)
+        {
+            for (int y = (int) mark1.position.y; y<(int)mark3.position.y; y++)
+            {
+                Vector3 o = new Vector3(x, y, -1);
+                RaycastHit hit;
+                Physics.Raycast(o, Vector3.forward*20, out hit);
+
+                if (hit.transform != null)
+                {
+                    Debug.Log(hit.transform.name);
+                }
+            }
+        }
+        **/
+    }
+
+    private void analysePositionObjs ()
+    {
         foreach (GameObject g in objs)
         {
             float x = ((g.transform.position.x - markBase.position.x) * scal_x) + (MinMapWidth / 2);
@@ -65,6 +100,7 @@ public class MiniMap : MonoBehaviour
     void Update()
     {
         updateImage();
+
     }
 
     private void updateImage ()
