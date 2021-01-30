@@ -20,18 +20,11 @@ public class HighscoreTable : MonoBehaviour
 
         entryTemplate.gameObject.SetActive(false);
 
-        PlayFabManager.Login(
+        PlayFabManager.LoadLeaderboard(
             () =>
             {
-                PlayFabManager.LoadLeaderboard(() =>
-                {
-                    UpdateHighscores();
-                }, () =>
-                {
-                    Debug.LogError("Error Loading Leaderboard");
-                });
-            },
-            () =>
+                UpdateHighscores();
+            }, () =>
             {
                 Debug.LogError("Error Loading Leaderboard");
             }

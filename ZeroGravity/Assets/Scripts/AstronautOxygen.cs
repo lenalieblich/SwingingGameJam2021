@@ -28,9 +28,6 @@ public class AstronautOxygen : MonoBehaviour
     bool suffocating = false;
     bool suffocated = false;
 
-    [SerializeField]
-    SpriteRenderer deathCountdownRenderer;
-
     AstronautMovement astronautMovement;
     AstronautScore astronautScore;
 
@@ -41,9 +38,6 @@ public class AstronautOxygen : MonoBehaviour
         deathCountdown = GetComponentInChildren<DeathCountdown>();
         astronautMovement = GetComponent<AstronautMovement>();
         astronautScore = GetComponent<AstronautScore>();
-
-        // TODO disable deathCountdownRenderer
-        deathCountdownRenderer.enabled = false;
     }
 
     public void UseOxygen(float force)
@@ -97,16 +91,12 @@ public class AstronautOxygen : MonoBehaviour
         if(!suffocating && OxygenLevel == 0f)
         {
             deathCountdown.startCountDown(10);
-            // TODO enable deathCountdownRenderer
-            deathCountdownRenderer.enabled = true;
             astronautMovement.CanMove(false);
             suffocating = true;
         }
         else if(suffocating && OxygenLevel > 0f)
         {
             deathCountdown.stopCountDown();
-            // TODO disable deathCountdownRenderer
-            deathCountdownRenderer.enabled = false;
             astronautMovement.CanMove(true);
             suffocating = false;
         }
