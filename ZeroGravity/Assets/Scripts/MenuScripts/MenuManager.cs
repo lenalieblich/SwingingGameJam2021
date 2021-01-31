@@ -23,10 +23,11 @@ public class MenuManager : MonoBehaviour
 
     public TMP_Text playButtonText;
 
-    public TMP_Text scoreBoard;
-    public TMP_Text scoreSum;
-
     public AstronautData astronautData;
+    private float collectibleScoreSum;
+
+    private Transform collectibleContainer;
+    private Transform collectibleTemplate;
 
     private static string playerName;
 
@@ -59,13 +60,36 @@ public class MenuManager : MonoBehaviour
             // save score
             PlayFabManager.SubmitScore((int) astronautData.score);
 
-            scoreBoard = GameObject.Find("scoreBoard").GetComponent<TMP_Text>();
-            scoreSum = GameObject.Find("scoreSum").GetComponent<TMP_Text>();
+            // collectibles
+            float templateWidth = 200f;
+            collectibleContainer = GameObject.Find("collectibleContainer").transform;
+            collectibleTemplate = collectibleContainer.Find("collectibleTemplate");
+
+            for (int i=0; i<astronautData.collectibles.Count; i++) {
+                collectibleScoreSum += astronautData.collectibles[i].score;
+                Transform collectibleTransform = Instantiate(collectibleTemplate, collectibleContainer);
+                RectTransform collectibleRectTransform = collectibleTransform.GetComponent<RectTransform>();
+                collectibleRectTransform.anchoredPosition = new Vector2(templateWidth * i, 0);
+                collectibleTransform.gameObject.SetActive(true);
+
+                collectibleTransform.Find("label").GetComponent<TMP_Text>().text = astronautData.collectibles[i].name;
+            }
+
+
+            // score
+            TMP_Text scoreBoard = GameObject.Find("scoreBoardNumber").GetComponent<TMP_Text>();
+            scoreBoard.text = $@"{(int) astronautData.distanceTravelled}
+                {(int) collectibleScoreSum}
+                {(int) astronautData.remainingOxygen}
+                {(astronautData.spaceshipReached ? "1000" : "0")}";
+            
+            TMP_Text scoreSum = GameObject.Find("scoreSum").GetComponent<TMP_Text>();
             scoreSum.text = "" + (int) astronautData.score;
 
-            // TODO: astronaut
-            // TODO: score
-            // TOOD: collectibles
+            // astronaut
+            Image astronautImage = GameObject.Find("astronaut").GetComponent<Image>();
+            astronautImage.enabled = false;
+
 
         } else {
             startScreen.gameObject.SetActive(true);
