@@ -23,8 +23,9 @@ public class MenuManager : MonoBehaviour
 
     public TMP_Text playButtonText;
 
-    public TMP_Text scoreBoard;
-    public TMP_Text scoreSum;
+    private TMP_Text scoreBoard;
+    private TMP_Text scoreSum;
+    private Image astronautImage;
 
     public AstronautData astronautData;
 
@@ -59,12 +60,15 @@ public class MenuManager : MonoBehaviour
             // save score
             PlayFabManager.SubmitScore((int) astronautData.score);
 
+            // score
             scoreBoard = GameObject.Find("scoreBoard").GetComponent<TMP_Text>();
             scoreSum = GameObject.Find("scoreSum").GetComponent<TMP_Text>();
             scoreSum.text = "" + (int) astronautData.score;
 
-            // TODO: astronaut
-            // TODO: score
+            // astronaut
+            astronautImage = GameObject.Find("astronaut").GetComponent<Image>();
+            astronautImage.enabled = false;
+
             // TOOD: collectibles
 
         } else {
