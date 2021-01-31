@@ -26,6 +26,8 @@ public class AstronautScore : MonoBehaviour
     bool finished = false;
     bool scoreCalculated = false;
 
+    bool endGame = false;
+
     void Start()
     {
         astronautData.Reset();
@@ -51,6 +53,9 @@ public class AstronautScore : MonoBehaviour
                 ComputeFinalScore();
                 scoreCalculated = true;
                 // go to next scene
+            }
+            if (endGame)
+            {
                 SceneManager.LoadScene("Menu");
             }
         }
@@ -131,6 +136,13 @@ public class AstronautScore : MonoBehaviour
     public void GameLost()
     {
         finished = true;
+        StartCoroutine(WaitForAnimationAndLose());
+    }
+
+    IEnumerator WaitForAnimationAndLose()
+    {
+        yield return new WaitForSeconds(5);
+        endGame = true;
     }
 
     // TODO

@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: 643dbbe9ca23296428033bfbd3435050
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3842041983457798129
+    second: Move_Normal_Broken_Medium_0
+  - first:
+      213: -5814599781038997956
+    second: Move_Normal_Broken_Medium_1
+  - first:
+      213: 1341389028682273039
+    second: Move_Normal_Broken_Medium_2
+  - first:
+      213: -3111069613958958565
+    second: Move_Normal_Broken_Medium_3
+  - first:
+      213: -5775452280003417996
+    second: Move_Normal_Broken_Medium_4
+  - first:
+      213: 2332975745115716330
+    second: Move_Normal_Broken_Medium_5
+  - first:
+      213: 3421889835934241981
+    second: Move_Normal_Broken_Medium_6
+  - first:
+      213: -7451299865583769328
+    second: Move_Normal_Broken_Medium_7
+  - first:
+      213: 6027427841660426975
+    second: Move_Normal_Broken_Medium_8
+  - first:
+      213: -6903757163872316297
+    second: Move_Normal_Broken_Medium_9
+  - first:
+      213: -371999773080010787
+    second: Move_Normal_Broken_Medium_10
+  - first:
+      213: 7712617411316821087
+    second: Move_Normal_Broken_Medium_11
+  - first:
+      213: -2462535806801108595
+    second: Move_Normal_Broken_Medium_12
+  - first:
+      213: -8349442791969384587
+    second: Move_Normal_Broken_Medium_13
+  - first:
+      213: 296501153140768985
+    second: Move_Normal_Broken_Medium_14
+  - first:
+      213: 8270967904940052950
+    second: Move_Normal_Broken_Medium_15
+  - first:
+      213: -3601180524632580948
+    second: Move_Normal_Broken_Medium_16
+  - first:
+      213: 4765146414573013799
+    second: Move_Normal_Broken_Medium_17
+  - first:
+      213: 1694416202091296281
+    second: Move_Normal_Broken_Medium_18
+  - first:
+      213: 2269593324712009118
+    second: Move_Normal_Broken_Medium_19
+  - first:
+      213: 3820306665700280242
+    second: Move_Normal_Broken_Medium_20
+  - first:
+      213: -3298373498656701635
+    second: Move_Normal_Broken_Medium_21
+  - first:
+      213: 8587834329517128788
+    second: Move_Normal_Broken_Medium_22
+  - first:
+      213: 6975408777240007379
+    second: Move_Normal_Broken_Medium_23
+  - first:
+      213: 6554956135553033708
+    second: Move_Normal_Broken_Medium_24
+  - first:
+      213: -3126127463320551768
+    second: Move_Normal_Broken_Medium_25
+  - first:
+      213: -9042654873227463775
+    second: Move_Normal_Broken_Medium_26
+  - first:
+      213: -2140133110038655098
+    second: Move_Normal_Broken_Medium_27
+  - first:
+      213: -3376188361514444237
+    second: Move_Normal_Broken_Medium_28
+  - first:
+      213: 1924686276266543173
+    second: Move_Normal_Broken_Medium_29
+  - first:
+      213: -537038849545848163
+    second: Move_Normal_Broken_Medium_30
+  - first:
+      213: 7904073854314098904
+    second: Move_Normal_Broken_Medium_31
+  - first:
+      213: -5350140802209982249
+    second: Move_Normal_Broken_Medium_32
+  - first:
+      213: 5349588626938950369
+    second: Move_Normal_Broken_Medium_33
+  - first:
+      213: 4985860022890772052
+    second: Move_Normal_Broken_Medium_34
+  - first:
+      213: -7555437868361080051
+    second: Move_Normal_Broken_Medium_35
+  - first:
+      213: 5836869121587803187
+    second: Move_Normal_Broken_Medium_36
+  - first:
+      213: -71317874829223715
+    second: Move_Normal_Broken_Medium_37
+  - first:
+      213: 6269424325969972065
+    second: Move_Normal_Broken_Medium_38
+  - first:
+      213: 4463134740265950548
+    second: Move_Normal_Broken_Medium_39
+  - first:
+      213: -3944202002339118359
+    second: Move_Normal_Broken_Medium_40
+  - first:
+      213: 1093790279547968565
+    second: Move_Normal_Broken_Medium_41
+  - first:
+      213: 2714654980351459977
+    second: Move_Normal_Broken_Medium_42
+  - first:
+      213: 7021650746230347908
+    second: Move_Normal_Broken_Medium_43
+  - first:
+      213: 4115072574829740723
+    second: Move_Normal_Broken_Medium_44
+  - first:
+      213: -604717204587480641
+    second: Move_Normal_Broken_Medium_45
+  - first:
+      213: -3832827673156056959
+    second: Move_Normal_Broken_Medium_46
+  - first:
+      213: 5563226745779419189
+    second: Move_Normal_Broken_Medium_47
+  - first:
+      213: -576164063828247107
+    second: Move_Normal_Broken_Medium_48
+  - first:
+      213: -3041511267977871428
+    second: Move_Normal_Broken_Medium_49
+  - first:
+      213: -1083119994849950047
+    second: Move_Normal_Broken_Medium_50
+  - first:
+      213: 1873635277546337271
+    second: Move_Normal_Broken_Medium_51
+  - first:
+      213: 7613025531460719675
+    second: Move_Normal_Broken_Medium_52
+  - first:
+      213: 2218009848557694364
+    second: Move_Normal_Broken_Medium_53
+  - first:
+      213: -7248629080032344920
+    second: Move_Normal_Broken_Medium_54
+  - first:
+      213: 7667654402286308381
+    second: Move_Normal_Broken_Medium_55
+  - first:
+      213: 3155035392957677806
+    second: Move_Normal_Broken_Medium_56
+  - first:
+      213: 4540112475752392902
+    second: Move_Normal_Broken_Medium_57
+  - first:
+      213: 1038555282373872424
+    second: Move_Normal_Broken_Medium_58
+  - first:
+      213: 2925344591860604830
+    second: Move_Normal_Broken_Medium_59
+  - first:
+      213: -8074062134517094908
+    second: Move_Normal_Broken_Medium_60
+  - first:
+      213: -987150924788097639
+    second: Move_Normal_Broken_Medium_61
+  - first:
+      213: 5853703926473691855
+    second: Move_Normal_Broken_Medium_62
+  - first:
+      213: -8356689247604054905
+    second: Move_Normal_Broken_Medium_63
+  - first:
+      213: -5886162078660905213
+    second: Move_Normal_Broken_Medium_64
+  - first:
+      213: 4014914149544184532
+    second: Move_Normal_Broken_Medium_65
+  - first:
+      213: 4389079589116471198
+    second: Move_Normal_Broken_Medium_66
+  - first:
+      213: 5493325664041780198
+    second: Move_Normal_Broken_Medium_67
+  - first:
+      213: -3086949675641581224
+    second: Move_Normal_Broken_Medium_68
+  - first:
+      213: 1798051088241364647
+    second: Move_Normal_Broken_Medium_69
+  - first:
+      213: 1501732827213705908
+    second: Move_Normal_Broken_Medium_70
+  - first:
+      213: -3092664858261006852
+    second: Move_Normal_Broken_Medium_71
+  - first:
+      213: 3610242264006998123
+    second: Move_Normal_Broken_Medium_72
+  - first:
+      213: -5851904725478487088
+    second: Move_Normal_Broken_Medium_73
+  - first:
+      213: -3178029337479600755
+    second: Move_Normal_Broken_Medium_74
+  - first:
+      213: 7646030629076588737
+    second: Move_Normal_Broken_Medium_75
+  - first:
+      213: 5242961589840607268
+    second: Move_Normal_Broken_Medium_76
+  - first:
+      213: 8863470794412740023
+    second: Move_Normal_Broken_Medium_77
+  - first:
+      213: -8933920051487264001
+    second: Move_Normal_Broken_Medium_78
+  - first:
+      213: 5618436995260646712
+    second: Move_Normal_Broken_Medium_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7a324f3dca15530800000000000000
+      internalID: 3842041983457798129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e3b146e446e4fa0800000000000000
+      internalID: -5814599781038997956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_2
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f019630f6329d9210800000000000000
+      internalID: 1341389028682273039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_3
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12f6745ba243d4d0800000000000000
+      internalID: -3111069613958958565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_4
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4782d2140c879dfa0800000000000000
+      internalID: -5775452280003417996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_5
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea793d5415606020800000000000000
+      internalID: 2332975745115716330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_6
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db451630daefc7f20800000000000000
+      internalID: 3421889835934241981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_7
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019a6fc304aa79890800000000000000
+      internalID: -7451299865583769328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_8
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda1873ffa9b5a350800000000000000
+      internalID: 6027427841660426975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_9
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77415d7ef6de030a0800000000000000
+      internalID: -6903757163872316297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_10
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf3a056d2466daf0800000000000000
+      internalID: -371999773080010787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_11
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 1944
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c28022ca8b80b60800000000000000
+      internalID: 7712617411316821087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81a0f41bb053ddd0800000000000000
+      internalID: -2462535806801108595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57718389402d02c80800000000000000
+      internalID: -8349442791969384587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_14
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d003745a326d1400800000000000000
+      internalID: 296501153140768985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_15
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1db92fc7168c270800000000000000
+      internalID: 8270967904940052950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_16
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac58398469060ec0800000000000000
+      internalID: -3601180524632580948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_17
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bc95fca63312240800000000000000
+      internalID: 4765146414573013799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_18
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9167153fe86c38710800000000000000
+      internalID: 1694416202091296281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_19
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d9e00aa173f7f10800000000000000
+      internalID: 2269593324712009118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_20
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b74f1eeba4740530800000000000000
+      internalID: 3820306665700280242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_21
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33410c47c2d932d0800000000000000
+      internalID: -3298373498656701635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_22
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cf5c882dd1e2770800000000000000
+      internalID: 8587834329517128788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_23
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2588a5351adc060800000000000000
+      internalID: 6975408777240007379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5e7e920e1e7fa50800000000000000
+      internalID: 6554956135553033708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae7f2292a3cd94d0800000000000000
+      internalID: -3126127463320551768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_26
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a372d68d49028280800000000000000
+      internalID: -9042654873227463775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f081c7648bc42e0800000000000000
+      internalID: -2140133110038655098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_28
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a9f11b29e5521d0800000000000000
+      internalID: -3376188361514444237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_29
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548cfe888fbd5ba10800000000000000
+      internalID: 1924686276266543173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_30
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a3c3ef20e0c88f0800000000000000
+      internalID: -537038849545848163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_31
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d038dcfa49e0bd60800000000000000
+      internalID: 7904073854314098904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_32
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d853f1694b70c5b0800000000000000
+      internalID: -5350140802209982249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_33
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e27a2b438e8d3a40800000000000000
+      internalID: 5349588626938950369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_34
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456b93c4645513540800000000000000
+      internalID: 4985860022890772052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_35
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03adc50a41b52790800000000000000
+      internalID: -7555437868361080051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334ffa08a89b00150800000000000000
+      internalID: 5836869121587803187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_37
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd81bac45c0a20ff0800000000000000
+      internalID: -71317874829223715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_38
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b02a72538710750800000000000000
+      internalID: 6269424325969972065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_39
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dd14a466d30fd30800000000000000
+      internalID: 4463134740265950548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_40
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e241381d216349c0800000000000000
+      internalID: -3944202002339118359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_41
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c5b3fc67ced2f00800000000000000
+      internalID: 1093790279547968565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_42
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982089f52546ca520800000000000000
+      internalID: 2714654980351459977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_43
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4889ae1c62ae17160800000000000000
+      internalID: 7021650746230347908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_44
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2cda744bcab1930800000000000000
+      internalID: 4115072574829740723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_45
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9fef608ec9b97f0800000000000000
+      internalID: -604717204587480641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_46
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1880f38d98f0fcac0800000000000000
+      internalID: -3832827673156056959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_47
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5387223004d843d40800000000000000
+      internalID: 5563226745779419189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdfb2b26dd0108f0800000000000000
+      internalID: -576164063828247107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfb4dbcd916ac5d0800000000000000
+      internalID: -3041511267977871428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_50
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a688d17a1cf7f0f0800000000000000
+      internalID: -1083119994849950047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_51
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f33ac4ab5d700a10800000000000000
+      internalID: 1873635277546337271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_52
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3412b4a266e6a960800000000000000
+      internalID: 7613025531460719675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_53
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d699ba434f7ce10800000000000000
+      internalID: 2218009848557694364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_54
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a40b10b142b76b90800000000000000
+      internalID: -7248629080032344920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_55
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c4cbccd0bf86a60800000000000000
+      internalID: 7667654402286308381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_56
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0070b49ffe8cb20800000000000000
+      internalID: 3155035392957677806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_57
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c86a8dfd38b10f30800000000000000
+      internalID: 4540112475752392902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_58
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b008dd680b96e00800000000000000
+      internalID: 1038555282373872424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_59
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f167b3869e89820800000000000000
+      internalID: 2925344591860604830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4062da1544b23ff80800000000000000
+      internalID: -8074062134517094908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d9e4cc67fec42f0800000000000000
+      internalID: -987150924788097639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_62
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc216c5f4b88c3150800000000000000
+      internalID: 5853703926473691855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_63
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784eb3aa763170c80800000000000000
+      internalID: -8356689247604054905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_64
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307ba0396c6205ea0800000000000000
+      internalID: -5886162078660905213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_65
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da4547a527d7b730800000000000000
+      internalID: 4014914149544184532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_66
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e976438c1a429ec30800000000000000
+      internalID: 4389079589116471198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_67
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e34fb826963c3c40800000000000000
+      internalID: 5493325664041780198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_68
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85150e710a3f825d0800000000000000
+      internalID: -3086949675641581224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_69
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae81a230f5f3f810800000000000000
+      internalID: 1798051088241364647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_70
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2bd91cc0a37d410800000000000000
+      internalID: 1501732827213705908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_71
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5d40272b5a415d0800000000000000
+      internalID: -3092664858261006852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b683d3316382a1230800000000000000
+      internalID: 3610242264006998123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbcc6a28abd9cea0800000000000000
+      internalID: -5851904725478487088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_74
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8522cdc72f55e3d0800000000000000
+      internalID: -3178029337479600755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_75
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8ddd3c8582c1a60800000000000000
+      internalID: 7646030629076588737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_76
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428777d99cdb2c840800000000000000
+      internalID: 5242961589840607268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_77
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd45021abf510b70800000000000000
+      internalID: 8863470794412740023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_78
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2bc5f0c07540480800000000000000
+      internalID: -8933920051487264001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Normal_Broken_Medium_79
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8358c6feda2b8fd40800000000000000
+      internalID: 5618436995260646712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

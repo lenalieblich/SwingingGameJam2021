@@ -13,7 +13,7 @@ public class CollectibleDisplay : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sprite = collectible.sprite;
         }
-        GetComponent<CircleCollider2D>().radius = collectible.colliderRadius;
+        //GetComponent<CircleCollider2D>().radius = collectible.colliderRadius;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
