@@ -58,8 +58,16 @@ public class AstronautScore : MonoBehaviour
     private void ComputeFinalScore()
     {
         AddScore(weightFactorRemainingOxygen * astronautData.remainingOxygen);
+        astronautData.remainingOxygenScore = astronautData.remainingOxygen * weightFactorRemainingOxygen;
+        astronautData.distanceTravelledScore = astronautData.distanceTravelled * weightFactorDistanceTravelled;
+        foreach(Collectible collectible in astronautData.collectibles)
+        {
+            astronautData.collectiblesScore += collectible.score;
+        }
+
         if(astronautData.spaceshipReached)
         {
+            astronautData.spaceshipReachedScore = scoreForSpaceshipReached;
             AddScore(scoreForSpaceshipReached);
         }
     }
@@ -114,7 +122,6 @@ public class AstronautScore : MonoBehaviour
         {
             astronautData.remainingOxygen = astronautOxygen.OxygenLevel;
             astronautData.spaceshipReached = true;
-            Debug.Log("You did it. You crazy son of a bitch, you did it.");
             finished = true;
         }
     }

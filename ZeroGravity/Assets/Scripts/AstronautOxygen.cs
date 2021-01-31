@@ -129,8 +129,6 @@ public class AstronautOxygen : MonoBehaviour
     {
         if(!suffocated)
         {
-            // TODO animate
-            Debug.Log("You've suffocated.. much sad.");
             suffocated = true;
             astronautScore.GameLost();
         }
