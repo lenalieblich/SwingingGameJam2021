@@ -159,7 +159,7 @@ public class MenuManager : MonoBehaviour
             }, error => Debug.LogError(error.GenerateErrorReport()));
         }
 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("GameScene");
 
     }
 

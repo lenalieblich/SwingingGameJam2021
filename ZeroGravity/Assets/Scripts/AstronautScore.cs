@@ -38,19 +38,20 @@ public class AstronautScore : MonoBehaviour
 
     void Update()
     {
-        if(!finished)
+        if (!finished)
         {
             ComputeDistance();
         }
         else
         {
-            if(!scoreCalculated) { 
+            if (!scoreCalculated)
+            {
                 astronautMovement.Stop();
                 astronautMovement.CanMove(false);
                 ComputeFinalScore();
                 scoreCalculated = true;
                 // go to next scene
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene("Menu");
             }
         }
     }
@@ -60,12 +61,12 @@ public class AstronautScore : MonoBehaviour
         AddScore(weightFactorRemainingOxygen * astronautData.remainingOxygen);
         astronautData.remainingOxygenScore = astronautData.remainingOxygen * weightFactorRemainingOxygen;
         astronautData.distanceTravelledScore = astronautData.distanceTravelled * weightFactorDistanceTravelled;
-        foreach(Collectible collectible in astronautData.collectibles)
+        foreach (Collectible collectible in astronautData.collectibles)
         {
             astronautData.collectiblesScore += collectible.score;
         }
 
-        if(astronautData.spaceshipReached)
+        if (astronautData.spaceshipReached)
         {
             astronautData.spaceshipReachedScore = scoreForSpaceshipReached;
             AddScore(scoreForSpaceshipReached);
@@ -81,7 +82,7 @@ public class AstronautScore : MonoBehaviour
     {
         float distanceTravelled = Vector2.Distance(oldPosition, transform.position);
         astronautData.distanceTravelled += distanceTravelled;
-        
+
         AddScore(weightFactorDistanceTravelled * distanceTravelled);
 
         oldPosition = transform.position;
@@ -89,13 +90,14 @@ public class AstronautScore : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Collectible"))
+        if (collision.CompareTag("Collectible"))
         {
             CollectibleDisplay collectibleDisplay = collision.GetComponent<CollectibleDisplay>();
 
-            if(collectibleDisplay != null)
+            if (collectibleDisplay != null)
             {
-                if(!finished) {
+                if (!finished)
+                {
                     Collectible collectible = collectibleDisplay.collectible;
                     if (collectible != null)
                     {
@@ -118,7 +120,7 @@ public class AstronautScore : MonoBehaviour
             }
         }
 
-        if(collision.CompareTag("Spaceship"))
+        if (collision.CompareTag("Spaceship"))
         {
             astronautData.remainingOxygen = astronautOxygen.OxygenLevel;
             astronautData.spaceshipReached = true;
