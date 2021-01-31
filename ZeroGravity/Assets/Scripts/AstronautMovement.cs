@@ -137,6 +137,7 @@ public class AstronautMovement : MonoBehaviour
                     StartCoroutine(SetIntangibilityForSeconds(intangibility.timeInSeconds));
                 }
                 astronautAnimator.SetTrigger("PickUp");
+                astronautSounds.playSound(astronautSounds.boostPickup);
             }
             else
             {
@@ -214,6 +215,7 @@ public class AstronautMovement : MonoBehaviour
                         astronautOxygen.DepleteOxygen();
                         impacted = true;
                         astronautAnimator.SetTrigger("Impact");
+                        astronautSounds.playSound(astronautSounds.crash);
                     }
                 }
             }
