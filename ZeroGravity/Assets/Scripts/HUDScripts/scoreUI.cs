@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class scoreUI : MonoBehaviour
 {
     public AstronautData astro;
-    public Text score;
+    public TMP_Text score;
 
     // Update is called once per frame
     void Update()
