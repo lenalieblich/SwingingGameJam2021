@@ -14,8 +14,10 @@ public class MiniMap : MonoBehaviour
     public Transform mark2;
     public Transform mark3;
     public Transform markBase;
-
     public string TagObjs;
+    public int visual_range = 25;
+
+    public Transform test;
 
     private float worldx, worldy;
     private int MinMapWidth, MinMapHeight;
@@ -47,40 +49,33 @@ public class MiniMap : MonoBehaviour
         materialObjs.mainTexture = tex_objs;
         image.material = materialObjs;
 
-        analysePositionObjs();
-        //scanForObjs();
+        //analysePositionObjs();
+        scanForObjs();
     }
 
-    private void scanForObjs ()
+    private void scanForObjs ()//scan nach Collidern
     {
-        Vector3 o = new Vector3(0, 0, -1);
-        RaycastHit hit;
-        Physics.Raycast(o, Vector3.forward * 2, out hit);
-
-        if (hit.transform != null)
+        for (int x = 0; x < Vector2.Distance(mark1.position, mark2.position); x++)
         {
-            Debug.Log(hit.transform.name);
-        }
-        /**
-
-        for (int x = (int)mark1.position.x; x<(int)mark2.position.x; x++)
-        {
-            for (int y = (int) mark1.position.y; y<(int)mark3.position.y; y++)
+            for (int y = 0; y < Vector2.Distance(mark2.position, mark3.position); y++)
             {
-                Vector3 o = new Vector3(x, y, -1);
-                RaycastHit hit;
-                Physics.Raycast(o, Vector3.forward*20, out hit);
+                Vector2 pos = new Vector2(mark1.position.x + x, mark1.position.y - y);
+                RaycastHit2D hit = Physics2D.Raycast(pos, Vector2.down, 1.5f);
 
-                if (hit.transform != null)
+                if (hit.point != null)
                 {
-                    Debug.Log(hit.transform.name);
+                    float tmpx = ((hit.point.x - markBase.position.x) * scal_x) + (MinMapWidth / 2);
+                    float tmpy = ((hit.point.y - markBase.position.y) * scal_y) + (MinMapHeight / 2);
+                    drawPoint(tex_objs, (int) tmpx, (int) tmpy, 1, Color.red);
                 }
             }
         }
-        **/
+
+        material.mainTexture = tex_objs;
+        image.material = material;
     }
 
-    private void analysePositionObjs ()
+    private void analysePositionObjs ()//Auslesen anhand der Position
     {
         foreach (GameObject g in objs)
         {
@@ -90,17 +85,15 @@ public class MiniMap : MonoBehaviour
             {
                 drawPoint(tex_objs, (int)x, (int)y, 5, Color.red);
             }
-
-            material.mainTexture = tex_objs;
-            image.material = material;
         }
+        material.mainTexture = tex_objs;
+        image.material = material;
     }
 
     // Update is called once per frame
     void Update()
     {
         updateImage();
-
     }
 
     private void updateImage ()
@@ -109,7 +102,7 @@ public class MiniMap : MonoBehaviour
         float y = ((transform.position.y - markBase.position.y) * scal_y) + (MinMapHeight / 2);
         if ((x>=0 && x <= MinMapWidth) && (y>=0 && y<=MinMapHeight))
         {
-            drawPoint(tex_black, (int)x, (int)y, 15, Color.clear);
+            drawPoint(tex_black, (int)x, (int)y, visual_range, Color.clear);
         }
 
         material.mainTexture = tex_black;
