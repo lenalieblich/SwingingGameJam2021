@@ -116,10 +116,16 @@ public class MenuManager : MonoBehaviour
             startScreen.SetActive(false);
             mainMenu.SetActive(true);
         }
+
+        if(playerNameScreen.activeSelf && Input.GetKey(KeyCode.Return)){
+            PlayGame();
+        }
     }
+
 
     public void BacktoMain()
     {
+        playerNameScreen.SetActive(false);
         highscoreScreen.SetActive(false);
         creditScreen.gameObject.SetActive(false);
         mainMenu.SetActive(true);
@@ -159,7 +165,7 @@ public class MenuManager : MonoBehaviour
             }, error => Debug.LogError(error.GenerateErrorReport()));
         }
 
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene(1);
 
     }
 
