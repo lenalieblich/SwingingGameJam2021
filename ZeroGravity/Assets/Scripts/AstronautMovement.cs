@@ -126,6 +126,7 @@ public class AstronautMovement : MonoBehaviour
                     Intangibility intangibility = (Intangibility)powerup;
                     StartCoroutine(SetIntangibilityForSeconds(intangibility.timeInSeconds));
                 }
+                astronautAnimator.SetTrigger("PickUp");
             }
             else
             {
