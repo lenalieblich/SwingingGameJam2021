@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Tesla Roadster
   description: To Mars and beyond!
-  score: 2018
+  score: 420
   sprite: {fileID: 21300000, guid: 8f94fa6bd7e57cd4aa6a190b6095cebf, type: 3}
-  colliderRadius: 10
+  colliderRadius: 0

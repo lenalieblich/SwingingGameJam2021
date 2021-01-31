@@ -36,7 +36,11 @@ public class AstronautMovement : MonoBehaviour
 
     [SerializeField]
     Animator astronautAnimator;
+    [SerializeField]
+    Animator smokeAnimator;
+
     bool startedMoving = false;
+    float smokeTimer = 0f;
 
     void Start()
     {
@@ -65,18 +69,14 @@ public class AstronautMovement : MonoBehaviour
         AddGravitationalPull();
 
         astronautAnimator.SetFloat("velocity", rb.velocity.magnitude);
-        //Animate();
-    }
 
-    private void Animate()
-    {
-        if(rb.velocity.magnitude > minimumSpeed)
+        if (smokeTimer > 0)
         {
-            if (!startedMoving)
-            {
-                //astronautAnimator.SetTrigger("MoveStart");
-                startedMoving = true;
-            }
+            smokeTimer -= Time.deltaTime;
+        }
+        else
+        {
+            smokeAnimator.gameObject.SetActive(false);
         }
     }
 
@@ -84,6 +84,13 @@ public class AstronautMovement : MonoBehaviour
     {
         if (Mathf.Abs(x.x) > 0f || Mathf.Abs(y.y) > 0f)
         {
+            smokeAnimator.gameObject.SetActive(true);
+            smokeAnimator.SetBool("moving", true);
+            if(!(smokeTimer > 0f))
+            {
+                smokeTimer = 1f;
+            }
+
             Vector2 usedforce = (x + y).normalized * accelerationVector;
             rb.AddForce(usedforce * accelerationMultiplier);
             astronautOxygen.UseOxygen(usedforce.magnitude);

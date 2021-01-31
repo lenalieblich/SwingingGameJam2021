@@ -150,11 +150,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1222081511225879795, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1222081511225879795, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1222081511225879795, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -199,7 +199,7 @@ PrefabInstance:
     - target: {fileID: 1222081511225879804, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8f94fa6bd7e57cd4aa6a190b6095cebf, type: 3}
+      objectReference: {fileID: 21300000, guid: 8ee44d8dd6e4e6d44b05a99f387fa555, type: 3}
     - target: {fileID: 1222081511225879804, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
       propertyPath: m_SortingLayer
       value: 3
@@ -237,8 +237,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0835781, y: -0.09776021}
-  m_Size: {x: 29.03925, y: 15.978271}
+  m_Offset: {x: -0.08357812, y: 0.13521385}
+  m_Size: {x: 29.039248, y: 24.553085}
   m_Direction: 1
 --- !u!1001 &238265128
 PrefabInstance:
@@ -2968,6 +2968,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1678146725766164992, guid: adbda07538c66154a86f59b676f2c280, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678146725766164992, guid: adbda07538c66154a86f59b676f2c280, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.55
+      objectReference: {fileID: 0}
     - target: {fileID: 3025697089704381446, guid: adbda07538c66154a86f59b676f2c280, type: 3}
       propertyPath: m_Name
       value: Astronaut
@@ -2976,6 +2984,10 @@ PrefabInstance:
       propertyPath: acceleration
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 3025697089704381449, guid: adbda07538c66154a86f59b676f2c280, type: 3}
+      propertyPath: smokeAnimator
+      value: 
+      objectReference: {fileID: 1565627920}
     - target: {fileID: 3025697089704381449, guid: adbda07538c66154a86f59b676f2c280, type: 3}
       propertyPath: astronautAnimator
       value: 
@@ -3084,6 +3096,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4877548996453836808, guid: adbda07538c66154a86f59b676f2c280, type: 3}
+      propertyPath: m_SortingLayer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4877548996453836808, guid: adbda07538c66154a86f59b676f2c280, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1615584621
+      objectReference: {fileID: 0}
     - target: {fileID: 5113684876288623114, guid: adbda07538c66154a86f59b676f2c280, type: 3}
       propertyPath: m_SortingLayer
       value: 5
@@ -3092,9 +3112,18 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1615584621
       objectReference: {fileID: 0}
+    - target: {fileID: 6573786750332417712, guid: adbda07538c66154a86f59b676f2c280, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5818798057530830048, guid: adbda07538c66154a86f59b676f2c280, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: adbda07538c66154a86f59b676f2c280, type: 3}
+--- !u!95 &1565627920 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1471741986154454006, guid: adbda07538c66154a86f59b676f2c280, type: 3}
+  m_PrefabInstance: {fileID: 1565627919}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1603817737
 GameObject:
   m_ObjectHideFlags: 0
