@@ -1,2 +1,5 @@
 ZeroGravity/.vscode/settings.json
 ZeroGravity/UserSettings/EditorUserSettings.asset
+ZeroGravity/Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabUnitySdk.unitypackage.meta
+.DS_Store
+build

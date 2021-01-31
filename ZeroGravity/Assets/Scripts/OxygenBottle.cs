@@ -14,8 +14,5 @@ public class OxygenBottle : MonoBehaviour
         // if triggered by astronaut
         // animate
         Destroy(gameObject);
-
-        // update leaderboard
-        PlayFabManager.SubmitScore(oxygenAmount);
     }
 }
