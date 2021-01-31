@@ -34,6 +34,10 @@ public class AstronautMovement : MonoBehaviour
     Vector2 reverseImpactVector;
     bool impacted = false;
 
+    [SerializeField]
+    Animator astronautAnimator;
+    bool startedMoving = false;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -59,6 +63,21 @@ public class AstronautMovement : MonoBehaviour
         }
 
         AddGravitationalPull();
+
+        astronautAnimator.SetFloat("velocity", rb.velocity.magnitude);
+        //Animate();
+    }
+
+    private void Animate()
+    {
+        if(rb.velocity.magnitude > minimumSpeed)
+        {
+            if (!startedMoving)
+            {
+                //astronautAnimator.SetTrigger("MoveStart");
+                startedMoving = true;
+            }
+        }
     }
 
     private void Move()
@@ -107,6 +126,7 @@ public class AstronautMovement : MonoBehaviour
                     Intangibility intangibility = (Intangibility)powerup;
                     StartCoroutine(SetIntangibilityForSeconds(intangibility.timeInSeconds));
                 }
+                astronautAnimator.SetTrigger("PickUp");
             }
             else
             {
@@ -172,7 +192,7 @@ public class AstronautMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(!invincible)
+        if (!invincible)
         {
             if (collision.collider.CompareTag("Asteroid"))
             {

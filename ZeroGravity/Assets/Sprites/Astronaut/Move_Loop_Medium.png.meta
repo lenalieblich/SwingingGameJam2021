@@ -1,0 +1,1836 @@
+fileFormatVersion: 2
+guid: 283d592236f4da045a754e6b094cd078
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8301913785791351922
+    second: Move_Loop_Medium_0
+  - first:
+      213: 1326999517748434443
+    second: Move_Loop_Medium_1
+  - first:
+      213: 8152857001804700823
+    second: Move_Loop_Medium_2
+  - first:
+      213: 8035486828305303454
+    second: Move_Loop_Medium_3
+  - first:
+      213: 3934272631571946884
+    second: Move_Loop_Medium_4
+  - first:
+      213: -5328454806690901711
+    second: Move_Loop_Medium_5
+  - first:
+      213: -2695549717989008843
+    second: Move_Loop_Medium_6
+  - first:
+      213: -756825070242009238
+    second: Move_Loop_Medium_7
+  - first:
+      213: 7797736537101889897
+    second: Move_Loop_Medium_8
+  - first:
+      213: 721826388995235770
+    second: Move_Loop_Medium_9
+  - first:
+      213: 634747323744285134
+    second: Move_Loop_Medium_10
+  - first:
+      213: 8322067165416343192
+    second: Move_Loop_Medium_11
+  - first:
+      213: -4570249872585414041
+    second: Move_Loop_Medium_12
+  - first:
+      213: -201148817261286149
+    second: Move_Loop_Medium_13
+  - first:
+      213: 7480234063182365224
+    second: Move_Loop_Medium_14
+  - first:
+      213: 7062328445196107519
+    second: Move_Loop_Medium_15
+  - first:
+      213: 6739435909912319475
+    second: Move_Loop_Medium_16
+  - first:
+      213: 7525870622143158379
+    second: Move_Loop_Medium_17
+  - first:
+      213: 2592681520686376244
+    second: Move_Loop_Medium_18
+  - first:
+      213: 4454995025191500160
+    second: Move_Loop_Medium_19
+  - first:
+      213: -5999250094731239904
+    second: Move_Loop_Medium_20
+  - first:
+      213: -4097380850406979593
+    second: Move_Loop_Medium_21
+  - first:
+      213: -3105947908210315851
+    second: Move_Loop_Medium_22
+  - first:
+      213: 3579074906720237353
+    second: Move_Loop_Medium_23
+  - first:
+      213: -719292830184174903
+    second: Move_Loop_Medium_24
+  - first:
+      213: 8477649556020652911
+    second: Move_Loop_Medium_25
+  - first:
+      213: -3301878996341957463
+    second: Move_Loop_Medium_26
+  - first:
+      213: 1548285788525304168
+    second: Move_Loop_Medium_27
+  - first:
+      213: 4965567860714129112
+    second: Move_Loop_Medium_28
+  - first:
+      213: -6590416721719776691
+    second: Move_Loop_Medium_29
+  - first:
+      213: -1871054054843695188
+    second: Move_Loop_Medium_30
+  - first:
+      213: 588656722605691112
+    second: Move_Loop_Medium_31
+  - first:
+      213: 910488610716196821
+    second: Move_Loop_Medium_32
+  - first:
+      213: 7985668145557960887
+    second: Move_Loop_Medium_33
+  - first:
+      213: -2601865112935946486
+    second: Move_Loop_Medium_34
+  - first:
+      213: -2939860243940504184
+    second: Move_Loop_Medium_35
+  - first:
+      213: 7071648560603006986
+    second: Move_Loop_Medium_36
+  - first:
+      213: -2549264460694847807
+    second: Move_Loop_Medium_37
+  - first:
+      213: 9152573171886925056
+    second: Move_Loop_Medium_38
+  - first:
+      213: 4026934823467115313
+    second: Move_Loop_Medium_39
+  - first:
+      213: 7010364705276393282
+    second: Move_Loop_Medium_40
+  - first:
+      213: 7307131087825344838
+    second: Move_Loop_Medium_41
+  - first:
+      213: 3788790786878991313
+    second: Move_Loop_Medium_42
+  - first:
+      213: 5431915308048894719
+    second: Move_Loop_Medium_43
+  - first:
+      213: -709965468116222629
+    second: Move_Loop_Medium_44
+  - first:
+      213: -1571908968062164213
+    second: Move_Loop_Medium_45
+  - first:
+      213: -6705637167570021530
+    second: Move_Loop_Medium_46
+  - first:
+      213: -1760294211664566333
+    second: Move_Loop_Medium_47
+  - first:
+      213: -7099340270589627679
+    second: Move_Loop_Medium_48
+  - first:
+      213: -7195929342679328133
+    second: Move_Loop_Medium_49
+  - first:
+      213: -2162623343679764483
+    second: Move_Loop_Medium_50
+  - first:
+      213: 7464946608723404575
+    second: Move_Loop_Medium_51
+  - first:
+      213: -6026062953072001421
+    second: Move_Loop_Medium_52
+  - first:
+      213: -413283872899445218
+    second: Move_Loop_Medium_53
+  - first:
+      213: 7900982300264873309
+    second: Move_Loop_Medium_54
+  - first:
+      213: 4901000904244475596
+    second: Move_Loop_Medium_55
+  - first:
+      213: 5220168199330195761
+    second: Move_Loop_Medium_56
+  - first:
+      213: 4692826882079630632
+    second: Move_Loop_Medium_57
+  - first:
+      213: -4826017364460494239
+    second: Move_Loop_Medium_58
+  - first:
+      213: -4919121663091464469
+    second: Move_Loop_Medium_59
+  - first:
+      213: -1612680108013436656
+    second: Move_Loop_Medium_60
+  - first:
+      213: 9063435607689568090
+    second: Move_Loop_Medium_61
+  - first:
+      213: -546123484655104043
+    second: Move_Loop_Medium_62
+  - first:
+      213: 263505593571152604
+    second: Move_Loop_Medium_63
+  - first:
+      213: 4773685692433786833
+    second: Move_Loop_Medium_64
+  - first:
+      213: -3857003437243628528
+    second: Move_Loop_Medium_65
+  - first:
+      213: 1392939017472696012
+    second: Move_Loop_Medium_66
+  - first:
+      213: 3795964155957551257
+    second: Move_Loop_Medium_67
+  - first:
+      213: -1275913949248099637
+    second: Move_Loop_Medium_68
+  - first:
+      213: -3534969657113631997
+    second: Move_Loop_Medium_69
+  - first:
+      213: 5984038031406209793
+    second: Move_Loop_Medium_70
+  - first:
+      213: 3840903078015666152
+    second: Move_Loop_Medium_71
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Move_Loop_Medium_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83fcf1b56da9cc80800000000000000
+      internalID: -8301913785791351922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b069288d7037a6210800000000000000
+      internalID: 1326999517748434443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_2
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c10295f34c42170800000000000000
+      internalID: 8152857001804700823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_3
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97c77e42b8c38f60800000000000000
+      internalID: 8035486828305303454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_4
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d136e1d18599630800000000000000
+      internalID: 3934272631571946884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_5
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131577da5968d06b0800000000000000
+      internalID: -5328454806690901711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_6
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a5cd820db779ad0800000000000000
+      internalID: -2695549717989008843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_7
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f6d13cb973f75f0800000000000000
+      internalID: -756825070242009238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_8
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961fa0af010273c60800000000000000
+      internalID: 7797736537101889897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_9
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf5091c641740a00800000000000000
+      internalID: 721826388995235770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_10
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec178e1f3531fc800800000000000000
+      internalID: 634747323744285134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_11
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 1620
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8964597aefbed7370800000000000000
+      internalID: 8322067165416343192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aa5c184f53390c0800000000000000
+      internalID: -4570249872585414041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfca6286730653df0800000000000000
+      internalID: -201148817261286149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_14
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82203cc9f312fc760800000000000000
+      internalID: 7480234063182365224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_15
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffefc079d4e620260800000000000000
+      internalID: 7062328445196107519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_16
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5d5d4c049478d50800000000000000
+      internalID: 6739435909912319475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_17
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6814620573417860800000000000000
+      internalID: 7525870622143158379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_18
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4352b304b1e0bf320800000000000000
+      internalID: 2592681520686376244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_19
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089fba03f5253dd30800000000000000
+      internalID: 4454995025191500160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_20
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ed0d003d16ebca0800000000000000
+      internalID: -5999250094731239904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_21
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7010e43dd2327c0800000000000000
+      internalID: -4097380850406979593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_22
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bda14065d475e4d0800000000000000
+      internalID: -3105947908210315851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_23
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 1296
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927f2973aad6ba130800000000000000
+      internalID: 3579074906720237353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca036f5bfe8406f0800000000000000
+      internalID: -719292830184174903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bebdcca59a6a570800000000000000
+      internalID: 8477649556020652911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_26
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acd6b30c8e5d22d0800000000000000
+      internalID: -3301878996341957463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86916d3b8bd9c7510800000000000000
+      internalID: 1548285788525304168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_28
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d646fd19ad39e440800000000000000
+      internalID: 4965567860714129112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_29
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a291cb8e22a84a0800000000000000
+      internalID: -6590416721719776691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_30
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafbc79104ea806e0800000000000000
+      internalID: -1871054054843695188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_31
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0de8d9b245b2800800000000000000
+      internalID: 588656722605691112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_32
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df17c54194b2ac00800000000000000
+      internalID: 910488610716196821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_33
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b872265edac2de60800000000000000
+      internalID: 7985668145557960887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_34
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07a8fd077154ebd0800000000000000
+      internalID: -2601865112935946486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_35
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 972
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d02a62fa48337d0800000000000000
+      internalID: -2939860243940504184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08052f06ea832260800000000000000
+      internalID: 7071648560603006986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_37
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce71c5ca713f9cd0800000000000000
+      internalID: -2549264460694847807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_38
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0052713bec8740f70800000000000000
+      internalID: 9152573171886925056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_39
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1336866e2eb82e730800000000000000
+      internalID: 4026934823467115313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_40
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2477fe39e81d94160800000000000000
+      internalID: 7010364705276393282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_41
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6491b017205286560800000000000000
+      internalID: 7307131087825344838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_42
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbe134952d749430800000000000000
+      internalID: 3788790786878991313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_43
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffac242713a026b40800000000000000
+      internalID: 5431915308048894719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_44
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d73261b22b526f0800000000000000
+      internalID: -709965468116222629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_45
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0367633f157f2ae0800000000000000
+      internalID: -1571908968062164213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_46
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663155a268ac0f2a0800000000000000
+      internalID: -6705637167570021530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_47
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 648
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7ae8dadbd2297e0800000000000000
+      internalID: -1760294211664566333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e231e743a31a7d90800000000000000
+      internalID: -7099340270589627679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ad9c4736ce22c90800000000000000
+      internalID: -7195929342679328133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_50
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df70009e681dcf1e0800000000000000
+      internalID: -2162623343679764483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_51
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f172730c361d89760800000000000000
+      internalID: 7464946608723404575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_52
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e7000fbaf1f5ca0800000000000000
+      internalID: -6026062953072001421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_53
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e4e6cd188b34af0800000000000000
+      internalID: -413283872899445218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_54
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dbfe77a8de5ad60800000000000000
+      internalID: 7900982300264873309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_55
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc63c551b5ad30440800000000000000
+      internalID: 4901000904244475596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_56
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139edd4d153c17840800000000000000
+      internalID: 5220168199330195761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_57
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825a2c28f25402140800000000000000
+      internalID: 4692826882079630632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_58
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162277fb6ca860db0800000000000000
+      internalID: -4826017364460494239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_59
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 324
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be62188f8e4cbbbb0800000000000000
+      internalID: -4919121663091464469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01145817cfb9e99e0800000000000000
+      internalID: -1612680108013436656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f96f04aaac7cd70800000000000000
+      internalID: 9063435607689568090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_62
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df42ad8597cb68f0800000000000000
+      internalID: -546123484655104043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_63
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd21325f0f828a300800000000000000
+      internalID: 263505593571152604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_64
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d761ee58d98f3240800000000000000
+      internalID: 4773685692433786833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_65
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01402a12fcb297ac0800000000000000
+      internalID: -3857003437243628528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_66
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccedd3208a6b45310800000000000000
+      internalID: 1392939017472696012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_67
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99027f7b949fda430800000000000000
+      internalID: 3795964155957551257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_68
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcae913f50b0b4ee0800000000000000
+      internalID: -1275913949248099637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_69
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30325ff63d341fec0800000000000000
+      internalID: -3534969657113631997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_70
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b156082e29b0350800000000000000
+      internalID: 5984038031406209793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Loop_Medium_71
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 0
+        width: 576
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e704dddff0ad4530800000000000000
+      internalID: 3840903078015666152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
