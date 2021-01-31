@@ -39,6 +39,8 @@ public class AstronautMovement : MonoBehaviour
     [SerializeField]
     Animator smokeAnimator;
 
+    AstronautSounds astronautSounds;
+
     bool startedMoving = false;
     float smokeTimer = 0f;
 
@@ -49,6 +51,7 @@ public class AstronautMovement : MonoBehaviour
 
         astronautOxygen = GetComponent<AstronautOxygen>();
         astronautScore = GetComponent<AstronautScore>();
+        astronautSounds = GetComponent<AstronautSounds>();
     }
 
     void Update()

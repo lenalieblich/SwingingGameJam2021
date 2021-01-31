@@ -9,7 +9,6 @@ using PlayFab.ClientModels;
 
 public class MenuManager : MonoBehaviour
 {
-
     public GameObject mainMenu;
     public GameObject startScreen;
     public GameObject highscoreScreen;
