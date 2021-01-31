@@ -34,14 +34,15 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-            playerName = PlayerPrefs.GetString("name", "Player1");
-            Debug.Log("Loaded playerName from PlayerPrefs: " + playerName);
-            playerNameInput.text = playerName;
+        playerName = PlayerPrefs.GetString("name", "Player1");
+        Debug.Log("Loaded playerName from PlayerPrefs: " + playerName);
+        playerNameInput.text = playerName;
 
-            PlayFabManager.Login();
+        PlayFabManager.Login();
 
 
-        if (astronautData.score > 0) {
+        if (astronautData.score > 0)
+        {
             startScreen.gameObject.SetActive(false);
             mainMenu.gameObject.SetActive(true);
             highscoreScreen.gameObject.SetActive(false);
@@ -49,23 +50,27 @@ public class MenuManager : MonoBehaviour
             playerNameScreen.gameObject.SetActive(false);
             scoreContainer.gameObject.SetActive(true);
 
-            if (astronautData.spaceshipReached) {
+            if (astronautData.spaceshipReached)
+            {
                 titleText.text = "you won!";
-            } else {
+            }
+            else
+            {
                 titleText.text = "you died, loser!";
             }
 
             playButtonText.text = "play again";
 
             // save score
-            PlayFabManager.SubmitScore((int) astronautData.score);
+            PlayFabManager.SubmitScore((int)astronautData.score);
 
             // collectibles
             float templateWidth = 200f;
             collectibleContainer = GameObject.Find("collectibleContainer").transform;
             collectibleTemplate = collectibleContainer.Find("collectibleTemplate");
 
-            for (int i=0; i<astronautData.collectibles.Count; i++) {
+            for (int i = 0; i < astronautData.collectibles.Count; i++)
+            {
                 collectibleScoreSum += astronautData.collectibles[i].score;
                 Transform collectibleTransform = Instantiate(collectibleTemplate, collectibleContainer);
                 RectTransform collectibleRectTransform = collectibleTransform.GetComponent<RectTransform>();
@@ -78,20 +83,22 @@ public class MenuManager : MonoBehaviour
 
             // score
             TMP_Text scoreBoard = GameObject.Find("scoreBoardNumber").GetComponent<TMP_Text>();
-            scoreBoard.text = $@"{(int) astronautData.distanceTravelled}
-                {(int) collectibleScoreSum}
-                {(int) astronautData.remainingOxygen}
+            scoreBoard.text = $@"{(int)astronautData.distanceTravelledScore}
+                {(int)collectibleScoreSum}
+                {(int)astronautData.remainingOxygenScore}
                 {(astronautData.spaceshipReached ? "1000" : "0")}";
-            
+
             TMP_Text scoreSum = GameObject.Find("scoreSum").GetComponent<TMP_Text>();
-            scoreSum.text = "" + (int) astronautData.score;
+            scoreSum.text = "" + (int)astronautData.score;
 
             // astronaut
             Image astronautImage = GameObject.Find("astronaut").GetComponent<Image>();
             astronautImage.enabled = false;
 
 
-        } else {
+        }
+        else
+        {
             startScreen.gameObject.SetActive(true);
             mainMenu.gameObject.SetActive(false);
             highscoreScreen.gameObject.SetActive(false);
@@ -152,7 +159,7 @@ public class MenuManager : MonoBehaviour
             }, error => Debug.LogError(error.GenerateErrorReport()));
         }
 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("GameScene");
 
     }
 
