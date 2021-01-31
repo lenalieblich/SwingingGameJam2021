@@ -60,11 +60,11 @@ public class MenuManager : MonoBehaviour
             PlayFabManager.SubmitScore((int) astronautData.score);
 
             // score
-            TMP_Text scoreBoard = GameObject.Find("scoreBoard").GetComponent<TMP_Text>();
+            TMP_Text scoreBoard = GameObject.Find("scoreBoardNumber").GetComponent<TMP_Text>();
             scoreBoard.text = $@"
-Distance:               {(int) astronautData.distanceTravelled}
-Extras:             {(int) astronautData.collectibles.Count}
-Oxygen:             {(int) astronautData.remainingOxygen}";
+                {(int) astronautData.distanceTravelled}
+                {(int) astronautData.collectibles.Count}
+                {(int) astronautData.remainingOxygen}";
 
             TMP_Text scoreSum = GameObject.Find("scoreSum").GetComponent<TMP_Text>();
             scoreSum.text = "" + (int) astronautData.score;
