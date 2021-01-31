@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 using PlayFab;
@@ -8,7 +9,6 @@ using PlayFab.ClientModels;
 
 public class MenuManager : MonoBehaviour
 {
-    // Start is called before the first frame update
 
     public GameObject mainMenu;
     public GameObject startScreen;
@@ -16,24 +16,54 @@ public class MenuManager : MonoBehaviour
     public GameObject creditScreen;
     public GameObject playerNameScreen;
 
+    public TMP_Text titleText;
     public TMP_InputField playerNameInput;
+
+    public TMP_Text playButtonText;
+
+    public AstronautData astronautData;
 
     private static string playerName;
 
+    // Start is called before the first frame update
     void Start()
     {
-        startScreen.gameObject.SetActive(true);
-        mainMenu.gameObject.SetActive(false);
-        highscoreScreen.gameObject.SetActive(false);
-        creditScreen.gameObject.SetActive(false);
-        playerNameScreen.gameObject.SetActive(false);
+            playerName = PlayerPrefs.GetString("name", "Player1");
+            Debug.Log("Loaded playerName from PlayerPrefs: " + playerName);
+            playerNameInput.text = playerName;
 
-        playerName = PlayerPrefs.GetString("name", "Player1");
-        Debug.Log("Loaded playerName from PlayerPrefs: " + playerName);
-        playerNameInput.text = playerName;
+            PlayFabManager.Login();
 
-        PlayFabManager.Login();
 
+        if (astronautData.score > 0) {
+            startScreen.gameObject.SetActive(false);
+            mainMenu.gameObject.SetActive(true);
+            highscoreScreen.gameObject.SetActive(false);
+            creditScreen.gameObject.SetActive(false);
+            playerNameScreen.gameObject.SetActive(false);
+
+            if (astronautData.spaceshipReached) {
+                titleText.text = "you won!";
+            } else {
+                titleText.text = "you died, loser!";
+            }
+
+            playButtonText.text = "play again";
+
+            // save score
+            PlayFabManager.SubmitScore((int) astronautData.score);
+
+            // TODO: astronaut
+            // TODO: score
+            // TOOD: collectibles
+
+        } else {
+            startScreen.gameObject.SetActive(true);
+            mainMenu.gameObject.SetActive(false);
+            highscoreScreen.gameObject.SetActive(false);
+            creditScreen.gameObject.SetActive(false);
+            playerNameScreen.gameObject.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -73,8 +103,6 @@ public class MenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(1);
-
         if (playerNameInput.text != playerName)
         {
             playerName = playerNameInput.text;
@@ -88,6 +116,8 @@ public class MenuManager : MonoBehaviour
                 Debug.Log("The player's display name is now: " + result.DisplayName);
             }, error => Debug.LogError(error.GenerateErrorReport()));
         }
+
+        SceneManager.LoadScene(1);
 
     }
 
