@@ -125,6 +125,7 @@ public class AstronautOxygen : MonoBehaviour
             if (oxygenBottle != null)
             {
                 astronautAnimator.SetTrigger("PickUp");
+                astronautSounds.playSound(astronautSounds.oxygenPickup);
                 AddOxygen(oxygenBottle.OxygenAmount);
             }
         }

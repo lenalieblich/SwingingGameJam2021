@@ -7,7 +7,10 @@ public class AstronautSounds : MonoBehaviour
     private AudioSource audioSource;
 
     public AudioClip choking;
-
+    public AudioClip crash;
+    public AudioClip oxygenPickup;
+    public AudioClip boostPickup;
+    public AudioClip thrust;
 
     void Start()
     {
