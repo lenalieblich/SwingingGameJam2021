@@ -34,6 +34,8 @@ public class AstronautOxygen : MonoBehaviour
     [SerializeField]
     Animator astronautAnimator;
 
+    public AudioSource choking;
+
     void Start()
     {
         OxygenLevel = initialOxygenLevel;
@@ -41,6 +43,9 @@ public class AstronautOxygen : MonoBehaviour
         deathCountdown = GetComponentInChildren<DeathCountdown>();
         astronautMovement = GetComponent<AstronautMovement>();
         astronautScore = GetComponent<AstronautScore>();
+
+        choking = GetComponent<AudioSource>();
+        //choking.Play();
     }
 
     public void UseOxygen(float force)

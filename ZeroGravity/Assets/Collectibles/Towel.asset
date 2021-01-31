@@ -15,6 +15,6 @@ MonoBehaviour:
   name: Towel
   description: A towel, it says, is about the most massively useful thing an interstellar
     hitchhiker can have. [The Hitchhiker's Guide to the Galaxy]
-  score: 42
-  sprite: {fileID: 0}
-  colliderRadius: 5
+  score: 420
+  sprite: {fileID: 21300000, guid: 8ee44d8dd6e4e6d44b05a99f387fa555, type: 3}
+  colliderRadius: 0
