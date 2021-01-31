@@ -130,6 +130,7 @@ public class AstronautScore : MonoBehaviour
             astronautData.remainingOxygen = astronautOxygen.OxygenLevel;
             astronautData.spaceshipReached = true;
             finished = true;
+            endGame = true;
         }
     }
 
