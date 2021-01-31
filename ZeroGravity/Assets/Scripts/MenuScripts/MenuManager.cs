@@ -16,10 +16,15 @@ public class MenuManager : MonoBehaviour
     public GameObject creditScreen;
     public GameObject playerNameScreen;
 
+    public GameObject scoreContainer;
+
     public TMP_Text titleText;
     public TMP_InputField playerNameInput;
 
     public TMP_Text playButtonText;
+
+    public TMP_Text scoreBoard;
+    public TMP_Text scoreSum;
 
     public AstronautData astronautData;
 
@@ -41,6 +46,7 @@ public class MenuManager : MonoBehaviour
             highscoreScreen.gameObject.SetActive(false);
             creditScreen.gameObject.SetActive(false);
             playerNameScreen.gameObject.SetActive(false);
+            scoreContainer.gameObject.SetActive(true);
 
             if (astronautData.spaceshipReached) {
                 titleText.text = "you won!";
@@ -53,6 +59,10 @@ public class MenuManager : MonoBehaviour
             // save score
             PlayFabManager.SubmitScore((int) astronautData.score);
 
+            scoreBoard = GameObject.Find("scoreBoard").GetComponent<TMP_Text>();
+            scoreSum = GameObject.Find("scoreSum").GetComponent<TMP_Text>();
+            scoreSum.text = "" + (int) astronautData.score;
+
             // TODO: astronaut
             // TODO: score
             // TOOD: collectibles
@@ -63,6 +73,7 @@ public class MenuManager : MonoBehaviour
             highscoreScreen.gameObject.SetActive(false);
             creditScreen.gameObject.SetActive(false);
             playerNameScreen.gameObject.SetActive(false);
+            scoreContainer.gameObject.SetActive(false);
         }
     }
 
