@@ -116,7 +116,8 @@ public class MenuManager : MonoBehaviour
             mainMenu.SetActive(true);
         }
 
-        if(playerNameScreen.activeSelf && Input.GetKey(KeyCode.Return)){
+        if (playerNameScreen.activeSelf && Input.GetKey(KeyCode.Return))
+        {
             PlayGame();
         }
     }
@@ -164,7 +165,7 @@ public class MenuManager : MonoBehaviour
             }, error => Debug.LogError(error.GenerateErrorReport()));
         }
 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("GameScene");
 
     }
 
