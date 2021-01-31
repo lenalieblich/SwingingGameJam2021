@@ -29,6 +29,9 @@ public class MenuManager : MonoBehaviour
 
     public AstronautData astronautData;
 
+    private Transform collectibleContainer;
+    private Transform collectibleTemplate;
+
     private static string playerName;
 
     // Start is called before the first frame update
@@ -69,7 +72,20 @@ public class MenuManager : MonoBehaviour
             astronautImage = GameObject.Find("astronaut").GetComponent<Image>();
             astronautImage.enabled = false;
 
-            // TOOD: collectibles
+            // collectibles
+            float templateWidth = 200f;
+            collectibleContainer = GameObject.Find("collectibleContainer").transform;
+            collectibleTemplate = collectibleContainer.Find("collectibleTemplate");
+
+            for (int i=0; i<astronautData.collectibles.Count; i++) {
+                Transform collectibleTransform = Instantiate(collectibleTemplate, collectibleContainer);
+                RectTransform collectibleRectTransform = collectibleTransform.GetComponent<RectTransform>();
+                collectibleRectTransform.anchoredPosition = new Vector2(templateWidth * i, 0);
+                collectibleTransform.gameObject.SetActive(true);
+
+                collectibleTransform.Find("label").GetComponent<TMP_Text>().text = astronautData.collectibles[i].name;
+            }
+
 
         } else {
             startScreen.gameObject.SetActive(true);
