@@ -23,10 +23,6 @@ public class MenuManager : MonoBehaviour
 
     public TMP_Text playButtonText;
 
-    private TMP_Text scoreBoard;
-    private TMP_Text scoreSum;
-    private Image astronautImage;
-
     public AstronautData astronautData;
 
     private Transform collectibleContainer;
@@ -64,12 +60,12 @@ public class MenuManager : MonoBehaviour
             PlayFabManager.SubmitScore((int) astronautData.score);
 
             // score
-            scoreBoard = GameObject.Find("scoreBoard").GetComponent<TMP_Text>();
-            scoreSum = GameObject.Find("scoreSum").GetComponent<TMP_Text>();
+            TMP_Text scoreBoard = GameObject.Find("scoreBoard").GetComponent<TMP_Text>();
+            TMP_Text scoreSum = GameObject.Find("scoreSum").GetComponent<TMP_Text>();
             scoreSum.text = "" + (int) astronautData.score;
 
             // astronaut
-            astronautImage = GameObject.Find("astronaut").GetComponent<Image>();
+            Image astronautImage = GameObject.Find("astronaut").GetComponent<Image>();
             astronautImage.enabled = false;
 
             // collectibles
