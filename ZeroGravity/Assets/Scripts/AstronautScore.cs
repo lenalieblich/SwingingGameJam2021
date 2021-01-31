@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AstronautScore : MonoBehaviour
 {
@@ -48,7 +49,8 @@ public class AstronautScore : MonoBehaviour
                 astronautMovement.CanMove(false);
                 ComputeFinalScore();
                 scoreCalculated = true;
-                // TODO go to next scene
+                // go to next scene
+                SceneManager.LoadScene(0);
             }
         }
     }
