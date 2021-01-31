@@ -31,6 +31,9 @@ public class AstronautOxygen : MonoBehaviour
     AstronautMovement astronautMovement;
     AstronautScore astronautScore;
 
+    [SerializeField]
+    Animator astronautAnimator;
+
     void Start()
     {
         OxygenLevel = initialOxygenLevel;
@@ -116,6 +119,7 @@ public class AstronautOxygen : MonoBehaviour
 
             if (oxygenBottle != null)
             {
+                astronautAnimator.SetTrigger("PickUp");
                 AddOxygen(oxygenBottle.OxygenAmount);
             }
         }
@@ -125,8 +129,6 @@ public class AstronautOxygen : MonoBehaviour
     {
         if(!suffocated)
         {
-            // TODO animate
-            Debug.Log("You've suffocated.. much sad.");
             suffocated = true;
             astronautScore.GameLost();
         }
