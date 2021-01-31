@@ -119,7 +119,6 @@ public class MenuManager : MonoBehaviour
 
         if(playerNameScreen.activeSelf && Input.GetKey(KeyCode.Return)){
             PlayGame();
-            Debug.Log("here i am ");
         }
     }
 
@@ -166,7 +165,7 @@ public class MenuManager : MonoBehaviour
             }, error => Debug.LogError(error.GenerateErrorReport()));
         }
 
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene(1);
 
     }
 
