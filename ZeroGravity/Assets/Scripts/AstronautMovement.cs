@@ -64,7 +64,8 @@ public class AstronautMovement : MonoBehaviour
 
         AddGravitationalPull();
 
-        Animate();
+        astronautAnimator.SetFloat("velocity", rb.velocity.magnitude);
+        //Animate();
     }
 
     private void Animate()
@@ -73,7 +74,7 @@ public class AstronautMovement : MonoBehaviour
         {
             if (!startedMoving)
             {
-                astronautAnimator.SetTrigger("MoveStart");
+                //astronautAnimator.SetTrigger("MoveStart");
                 startedMoving = true;
             }
         }
