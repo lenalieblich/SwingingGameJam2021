@@ -61,6 +61,11 @@ public class MenuManager : MonoBehaviour
 
             // score
             TMP_Text scoreBoard = GameObject.Find("scoreBoard").GetComponent<TMP_Text>();
+            scoreBoard.text = $@"
+Distance:               {(int) astronautData.distanceTravelled}
+Extras:             {(int) astronautData.collectibles.Count}
+Oxygen:             {(int) astronautData.remainingOxygen}";
+
             TMP_Text scoreSum = GameObject.Find("scoreSum").GetComponent<TMP_Text>();
             scoreSum.text = "" + (int) astronautData.score;
 
