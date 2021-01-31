@@ -149,6 +149,7 @@ public class AstronautMovement : MonoBehaviour
                 Vector2 towards = (blackHole.transform.position - rb.transform.position).normalized;
 
                 gravitationalPull = towards * multiplier;
+                Debug.Log(gravitationalPull);
             }
         }
     }
