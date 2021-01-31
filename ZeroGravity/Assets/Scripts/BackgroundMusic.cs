@@ -9,10 +9,4 @@ public class BackgroundMusic : MonoBehaviour
     {
         GetComponent<AudioSource>().Play();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
