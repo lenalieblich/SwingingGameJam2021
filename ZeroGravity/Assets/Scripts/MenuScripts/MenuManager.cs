@@ -116,10 +116,17 @@ public class MenuManager : MonoBehaviour
             startScreen.SetActive(false);
             mainMenu.SetActive(true);
         }
+
+        if(playerNameScreen.activeSelf && Input.GetKey(KeyCode.Return)){
+            PlayGame();
+            Debug.Log("here i am ");
+        }
     }
+
 
     public void BacktoMain()
     {
+        playerNameScreen.SetActive(false);
         highscoreScreen.SetActive(false);
         creditScreen.gameObject.SetActive(false);
         mainMenu.SetActive(true);
