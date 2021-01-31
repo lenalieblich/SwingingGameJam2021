@@ -30,11 +30,10 @@ public class AstronautOxygen : MonoBehaviour
 
     AstronautMovement astronautMovement;
     AstronautScore astronautScore;
+    AstronautSounds astronautSounds;
 
     [SerializeField]
     Animator astronautAnimator;
-
-    public AudioSource choking;
 
     void Start()
     {
@@ -43,8 +42,9 @@ public class AstronautOxygen : MonoBehaviour
         deathCountdown = GetComponentInChildren<DeathCountdown>();
         astronautMovement = GetComponent<AstronautMovement>();
         astronautScore = GetComponent<AstronautScore>();
+        astronautSounds = GetComponent<AstronautSounds>();
 
-        choking = GetComponent<AudioSource>();
+        //choking = GetComponent<AudioSource>();
         //choking.Play();
     }
 
@@ -135,6 +135,8 @@ public class AstronautOxygen : MonoBehaviour
         if(!suffocated)
         {
             astronautAnimator.SetTrigger("Suffocation");
+            astronautSounds.playSound(astronautSounds.choking);
+
             suffocated = true;
             astronautScore.GameLost();
         }
