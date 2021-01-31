@@ -23,11 +23,10 @@ public class MenuManager : MonoBehaviour
 
     public TMP_Text playButtonText;
 
-    private TMP_Text scoreBoard;
-    private TMP_Text scoreSum;
-    private Image astronautImage;
-
     public AstronautData astronautData;
+
+    private Transform collectibleContainer;
+    private Transform collectibleTemplate;
 
     private static string playerName;
 
@@ -61,15 +60,33 @@ public class MenuManager : MonoBehaviour
             PlayFabManager.SubmitScore((int) astronautData.score);
 
             // score
-            scoreBoard = GameObject.Find("scoreBoard").GetComponent<TMP_Text>();
-            scoreSum = GameObject.Find("scoreSum").GetComponent<TMP_Text>();
+            TMP_Text scoreBoard = GameObject.Find("scoreBoard").GetComponent<TMP_Text>();
+            scoreBoard.text = $@"
+Distance:               {(int) astronautData.distanceTravelled}
+Extras:             {(int) astronautData.collectibles.Count}
+Oxygen:             {(int) astronautData.remainingOxygen}";
+
+            TMP_Text scoreSum = GameObject.Find("scoreSum").GetComponent<TMP_Text>();
             scoreSum.text = "" + (int) astronautData.score;
 
             // astronaut
-            astronautImage = GameObject.Find("astronaut").GetComponent<Image>();
+            Image astronautImage = GameObject.Find("astronaut").GetComponent<Image>();
             astronautImage.enabled = false;
 
-            // TOOD: collectibles
+            // collectibles
+            float templateWidth = 200f;
+            collectibleContainer = GameObject.Find("collectibleContainer").transform;
+            collectibleTemplate = collectibleContainer.Find("collectibleTemplate");
+
+            for (int i=0; i<astronautData.collectibles.Count; i++) {
+                Transform collectibleTransform = Instantiate(collectibleTemplate, collectibleContainer);
+                RectTransform collectibleRectTransform = collectibleTransform.GetComponent<RectTransform>();
+                collectibleRectTransform.anchoredPosition = new Vector2(templateWidth * i, 0);
+                collectibleTransform.gameObject.SetActive(true);
+
+                collectibleTransform.Find("label").GetComponent<TMP_Text>().text = astronautData.collectibles[i].name;
+            }
+
 
         } else {
             startScreen.gameObject.SetActive(true);
