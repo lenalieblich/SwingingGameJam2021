@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cfe1fa6d30b0674390a24186cbc652d, type: 3}
   m_Name: AstronautData
   m_EditorClassIdentifier: 
-  distanceTravelled: 129.14944
+  distanceTravelled: 0
   distanceTravelledScore: 0
   remainingOxygen: 0
   remainingOxygenScore: 0

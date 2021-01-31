@@ -79,6 +79,10 @@ public class AstronautMovement : MonoBehaviour
         }
         else
         {
+            if(astronautSounds.isPlaying())
+            {
+                astronautSounds.Stop();
+            }
             smokeAnimator.gameObject.SetActive(false);
         }
     }
@@ -87,6 +91,10 @@ public class AstronautMovement : MonoBehaviour
     {
         if (Mathf.Abs(x.x) > 0f || Mathf.Abs(y.y) > 0f)
         {
+            if(!astronautSounds.isPlaying())
+            {
+                astronautSounds.Play();
+            }
             smokeAnimator.gameObject.SetActive(true);
             smokeAnimator.SetBool("moving", true);
             if(!(smokeTimer > 0f))

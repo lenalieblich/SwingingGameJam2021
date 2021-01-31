@@ -21,4 +21,19 @@ public class AstronautSounds : MonoBehaviour
     {
         audioSource.PlayOneShot(audioclip);
     }
+
+    public void Play()
+    {
+        audioSource.Play();
+    }
+
+    public void Stop()
+    {
+        audioSource.Stop();
+    }
+
+    public bool isPlaying()
+    {
+        return audioSource.isPlaying;
+    }
 }
