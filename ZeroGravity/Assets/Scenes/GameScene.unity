@@ -212,6 +212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Placerholder
       objectReference: {fileID: 0}
+    - target: {fileID: 9010689322242476612, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
+      propertyPath: collectible
+      value: 
+      objectReference: {fileID: 11400000, guid: d238a6f8be573a14db198b09e3cfa617, type: 2}
     m_RemovedComponents:
     - {fileID: 1222081511225879794, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
@@ -458,11 +462,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1222081511225879795, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1222081511225879795, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1222081511225879795, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -507,7 +511,7 @@ PrefabInstance:
     - target: {fileID: 1222081511225879804, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8f94fa6bd7e57cd4aa6a190b6095cebf, type: 3}
+      objectReference: {fileID: 21300000, guid: 04814e179ff43f04a871cecadb7d6156, type: 3}
     - target: {fileID: 1222081511225879804, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
       propertyPath: m_SortingLayer
       value: 3
@@ -518,8 +522,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1222081511225879805, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
       propertyPath: m_Name
-      value: Placeholder
+      value: Fossil
       objectReference: {fileID: 0}
+    - target: {fileID: 9010689322242476612, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
+      propertyPath: collectible
+      value: 
+      objectReference: {fileID: 11400000, guid: a08b6066473883e4fb9663c423666709, type: 2}
     m_RemovedComponents:
     - {fileID: 1222081511225879794, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ccbdbe88a391b9c45abac1a3832092f6, type: 3}
@@ -541,8 +549,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0835781, y: -0.09776021}
-  m_Size: {x: 29.03925, y: 15.978271}
+  m_Offset: {x: -0.2974701, y: 0.065350525}
+  m_Size: {x: 38.917007, y: 21.02692}
   m_Direction: 1
 --- !u!1 &414927491
 GameObject:

@@ -203,6 +203,7 @@ public class AstronautMovement : MonoBehaviour
                         reverseImpactVector = Vector3.Reflect(-collision.relativeVelocity, collision.contacts[0].normal).normalized;
                         astronautOxygen.DepleteOxygen();
                         impacted = true;
+                        astronautAnimator.SetTrigger("Impact");
                     }
                 }
             }
@@ -210,6 +211,7 @@ public class AstronautMovement : MonoBehaviour
             if (collision.collider.CompareTag("BlackHole"))
             {
                 Debug.Log("That wasn't a good decision..");
+                astronautAnimator.SetTrigger("Suffocation");
                 CanMove(false);
                 astronautScore.GameLost();
             }

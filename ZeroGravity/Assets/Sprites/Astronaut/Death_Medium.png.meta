@@ -1,0 +1,4428 @@
+fileFormatVersion: 2
+guid: ab567a2714037074fafbf5be4f9517d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8028367469301958067
+    second: Death_Medium_0
+  - first:
+      213: -2814407457042276723
+    second: Death_Medium_1
+  - first:
+      213: 7183722454007396949
+    second: Death_Medium_2
+  - first:
+      213: 2728689360591779399
+    second: Death_Medium_3
+  - first:
+      213: 7123443446368329022
+    second: Death_Medium_4
+  - first:
+      213: 8502466949595546631
+    second: Death_Medium_5
+  - first:
+      213: 4653719794062642707
+    second: Death_Medium_6
+  - first:
+      213: 1290105096391249831
+    second: Death_Medium_7
+  - first:
+      213: -5834460038114620620
+    second: Death_Medium_8
+  - first:
+      213: -3759798061270150092
+    second: Death_Medium_9
+  - first:
+      213: -3974641241970655189
+    second: Death_Medium_10
+  - first:
+      213: -578981111609218822
+    second: Death_Medium_11
+  - first:
+      213: -3467833896362117495
+    second: Death_Medium_12
+  - first:
+      213: 5179470481525972858
+    second: Death_Medium_13
+  - first:
+      213: -7250181873325553549
+    second: Death_Medium_14
+  - first:
+      213: 8937615188268010027
+    second: Death_Medium_15
+  - first:
+      213: -927664064591507327
+    second: Death_Medium_16
+  - first:
+      213: 1953934115203323770
+    second: Death_Medium_17
+  - first:
+      213: -8658805273574433383
+    second: Death_Medium_18
+  - first:
+      213: 4547493031772271480
+    second: Death_Medium_19
+  - first:
+      213: 7917597190711814637
+    second: Death_Medium_20
+  - first:
+      213: 6570807192987526640
+    second: Death_Medium_21
+  - first:
+      213: 6522338353036706629
+    second: Death_Medium_22
+  - first:
+      213: -4104769222422821802
+    second: Death_Medium_23
+  - first:
+      213: -1943139402926164101
+    second: Death_Medium_24
+  - first:
+      213: -2303456300521635187
+    second: Death_Medium_25
+  - first:
+      213: 912270532232351789
+    second: Death_Medium_26
+  - first:
+      213: -7456147152514655406
+    second: Death_Medium_27
+  - first:
+      213: 60933544912435707
+    second: Death_Medium_28
+  - first:
+      213: -3783146525050770537
+    second: Death_Medium_29
+  - first:
+      213: -8888138130302755003
+    second: Death_Medium_30
+  - first:
+      213: -17570089896248251
+    second: Death_Medium_31
+  - first:
+      213: 3082505636207130014
+    second: Death_Medium_32
+  - first:
+      213: -5310886152104694347
+    second: Death_Medium_33
+  - first:
+      213: 8000027856379115902
+    second: Death_Medium_34
+  - first:
+      213: -8059430189809170404
+    second: Death_Medium_35
+  - first:
+      213: 7389654986223545708
+    second: Death_Medium_36
+  - first:
+      213: -1095854415058373687
+    second: Death_Medium_37
+  - first:
+      213: 4069296239728310172
+    second: Death_Medium_38
+  - first:
+      213: -83527471563673256
+    second: Death_Medium_39
+  - first:
+      213: 4460714509807942744
+    second: Death_Medium_40
+  - first:
+      213: -6015467920821027222
+    second: Death_Medium_41
+  - first:
+      213: 1487584198321781026
+    second: Death_Medium_42
+  - first:
+      213: -2564393158547139679
+    second: Death_Medium_43
+  - first:
+      213: -976419723747768174
+    second: Death_Medium_44
+  - first:
+      213: -7737213112955389834
+    second: Death_Medium_45
+  - first:
+      213: 8615561552355849960
+    second: Death_Medium_46
+  - first:
+      213: 4438970921658940915
+    second: Death_Medium_47
+  - first:
+      213: 8783500157825248932
+    second: Death_Medium_48
+  - first:
+      213: -7476866725414843989
+    second: Death_Medium_49
+  - first:
+      213: -1930330500822969939
+    second: Death_Medium_50
+  - first:
+      213: -2520361944180836685
+    second: Death_Medium_51
+  - first:
+      213: -2121154254393643132
+    second: Death_Medium_52
+  - first:
+      213: 6492197954793156665
+    second: Death_Medium_53
+  - first:
+      213: 7880379599632150350
+    second: Death_Medium_54
+  - first:
+      213: 754187927189807114
+    second: Death_Medium_55
+  - first:
+      213: -2984543008829301873
+    second: Death_Medium_56
+  - first:
+      213: 7578703809933405162
+    second: Death_Medium_57
+  - first:
+      213: 2917700252585869415
+    second: Death_Medium_58
+  - first:
+      213: -5318081728479124368
+    second: Death_Medium_59
+  - first:
+      213: 2629288650733226944
+    second: Death_Medium_60
+  - first:
+      213: -161514143035540503
+    second: Death_Medium_61
+  - first:
+      213: 5335485051051156420
+    second: Death_Medium_62
+  - first:
+      213: 3622739772136324191
+    second: Death_Medium_63
+  - first:
+      213: -6419820803628071682
+    second: Death_Medium_64
+  - first:
+      213: -4524737755236621364
+    second: Death_Medium_65
+  - first:
+      213: -3159185435980610905
+    second: Death_Medium_66
+  - first:
+      213: 7499120073825134516
+    second: Death_Medium_67
+  - first:
+      213: 8879599010618863060
+    second: Death_Medium_68
+  - first:
+      213: -68786970438781223
+    second: Death_Medium_69
+  - first:
+      213: 3805707935887359733
+    second: Death_Medium_70
+  - first:
+      213: 8303541704352859227
+    second: Death_Medium_71
+  - first:
+      213: -8078701254860976814
+    second: Death_Medium_72
+  - first:
+      213: 6277648817384993699
+    second: Death_Medium_73
+  - first:
+      213: -5504490372757631737
+    second: Death_Medium_74
+  - first:
+      213: 3722184702988440837
+    second: Death_Medium_75
+  - first:
+      213: 260626902061113905
+    second: Death_Medium_76
+  - first:
+      213: 2266676843853300674
+    second: Death_Medium_77
+  - first:
+      213: 5421841244066826502
+    second: Death_Medium_78
+  - first:
+      213: -8050993502736873322
+    second: Death_Medium_79
+  - first:
+      213: 2112927349115095382
+    second: Death_Medium_80
+  - first:
+      213: 5229698315225762590
+    second: Death_Medium_81
+  - first:
+      213: 4772618938690750077
+    second: Death_Medium_82
+  - first:
+      213: 914345489039662503
+    second: Death_Medium_83
+  - first:
+      213: -1120256379570880656
+    second: Death_Medium_84
+  - first:
+      213: -3073909382402902380
+    second: Death_Medium_85
+  - first:
+      213: -6366956962249879796
+    second: Death_Medium_86
+  - first:
+      213: -3883483107584027335
+    second: Death_Medium_87
+  - first:
+      213: 654866965262969055
+    second: Death_Medium_88
+  - first:
+      213: 7122946588352376421
+    second: Death_Medium_89
+  - first:
+      213: 3269447095883360326
+    second: Death_Medium_90
+  - first:
+      213: -5534500255845224755
+    second: Death_Medium_91
+  - first:
+      213: -4636129320364819649
+    second: Death_Medium_92
+  - first:
+      213: -4009169973285079471
+    second: Death_Medium_93
+  - first:
+      213: -1796245156024571546
+    second: Death_Medium_94
+  - first:
+      213: 5321168883974500410
+    second: Death_Medium_95
+  - first:
+      213: -5474939769012671231
+    second: Death_Medium_96
+  - first:
+      213: -1916249344271357477
+    second: Death_Medium_97
+  - first:
+      213: -6679496270443750077
+    second: Death_Medium_98
+  - first:
+      213: -6747577139746411749
+    second: Death_Medium_99
+  - first:
+      213: -7980541313876338233
+    second: Death_Medium_100
+  - first:
+      213: 7486093161140836685
+    second: Death_Medium_101
+  - first:
+      213: -5131905088642886094
+    second: Death_Medium_102
+  - first:
+      213: -168067185538011912
+    second: Death_Medium_103
+  - first:
+      213: -5103014962331190097
+    second: Death_Medium_104
+  - first:
+      213: 7580936784035485782
+    second: Death_Medium_105
+  - first:
+      213: -5703100409402214494
+    second: Death_Medium_106
+  - first:
+      213: 281112100821268857
+    second: Death_Medium_107
+  - first:
+      213: 4450664271416416337
+    second: Death_Medium_108
+  - first:
+      213: 1068579415232078924
+    second: Death_Medium_109
+  - first:
+      213: -7194167882246532984
+    second: Death_Medium_110
+  - first:
+      213: 1865501262545639493
+    second: Death_Medium_111
+  - first:
+      213: -4274281719480074555
+    second: Death_Medium_112
+  - first:
+      213: 7178742584630415500
+    second: Death_Medium_113
+  - first:
+      213: -6805394274850626687
+    second: Death_Medium_114
+  - first:
+      213: -616041297355603608
+    second: Death_Medium_115
+  - first:
+      213: -848298252006394017
+    second: Death_Medium_116
+  - first:
+      213: 3066822031192384801
+    second: Death_Medium_117
+  - first:
+      213: -4019893677647740047
+    second: Death_Medium_118
+  - first:
+      213: 6785865983610760827
+    second: Death_Medium_119
+  - first:
+      213: -7270847948222574636
+    second: Death_Medium_120
+  - first:
+      213: 7575905335462483843
+    second: Death_Medium_121
+  - first:
+      213: 3363547773200486892
+    second: Death_Medium_122
+  - first:
+      213: 537305908453279860
+    second: Death_Medium_123
+  - first:
+      213: -7534887640905777461
+    second: Death_Medium_124
+  - first:
+      213: -1368975203333399485
+    second: Death_Medium_125
+  - first:
+      213: 1136039267656946650
+    second: Death_Medium_126
+  - first:
+      213: 8776669976683382853
+    second: Death_Medium_127
+  - first:
+      213: -4269967818170106353
+    second: Death_Medium_128
+  - first:
+      213: -4963035511503937064
+    second: Death_Medium_129
+  - first:
+      213: -5723228622203554175
+    second: Death_Medium_130
+  - first:
+      213: -4698816561826854628
+    second: Death_Medium_131
+  - first:
+      213: -6231465918957173185
+    second: Death_Medium_132
+  - first:
+      213: -5666908738579232712
+    second: Death_Medium_133
+  - first:
+      213: -242209993875527374
+    second: Death_Medium_134
+  - first:
+      213: -1804467266773978892
+    second: Death_Medium_135
+  - first:
+      213: 4279267837245363714
+    second: Death_Medium_136
+  - first:
+      213: 7515192150838147707
+    second: Death_Medium_137
+  - first:
+      213: -1556852118864605432
+    second: Death_Medium_138
+  - first:
+      213: 7812488855160247416
+    second: Death_Medium_139
+  - first:
+      213: -5227986701645893628
+    second: Death_Medium_140
+  - first:
+      213: -6433665487173109356
+    second: Death_Medium_141
+  - first:
+      213: -193476830515159791
+    second: Death_Medium_142
+  - first:
+      213: 5575182423393719061
+    second: Death_Medium_143
+  - first:
+      213: 1340096319919279246
+    second: Death_Medium_144
+  - first:
+      213: -3121576846229541581
+    second: Death_Medium_145
+  - first:
+      213: 1701125787903425063
+    second: Death_Medium_146
+  - first:
+      213: -5804440530170611134
+    second: Death_Medium_147
+  - first:
+      213: -6836598931675075687
+    second: Death_Medium_148
+  - first:
+      213: 62628797826483765
+    second: Death_Medium_149
+  - first:
+      213: 4989700174505304230
+    second: Death_Medium_150
+  - first:
+      213: 4808267822386003169
+    second: Death_Medium_151
+  - first:
+      213: -7897519845041335814
+    second: Death_Medium_152
+  - first:
+      213: 4886300331400503963
+    second: Death_Medium_153
+  - first:
+      213: 6838751495246638101
+    second: Death_Medium_154
+  - first:
+      213: -928797099210522074
+    second: Death_Medium_155
+  - first:
+      213: 3988713924329491019
+    second: Death_Medium_156
+  - first:
+      213: 8630000928290657465
+    second: Death_Medium_157
+  - first:
+      213: -6590339076446743584
+    second: Death_Medium_158
+  - first:
+      213: 4379129346679250523
+    second: Death_Medium_159
+  - first:
+      213: -9049934585102928178
+    second: Death_Medium_160
+  - first:
+      213: -587711009396839132
+    second: Death_Medium_161
+  - first:
+      213: 8635649291210390546
+    second: Death_Medium_162
+  - first:
+      213: -7121739442888784075
+    second: Death_Medium_163
+  - first:
+      213: 2669869621423095660
+    second: Death_Medium_164
+  - first:
+      213: 3434251658370334827
+    second: Death_Medium_165
+  - first:
+      213: -4557431853750606843
+    second: Death_Medium_166
+  - first:
+      213: -4374736579995470426
+    second: Death_Medium_167
+  - first:
+      213: 838097998920320851
+    second: Death_Medium_168
+  - first:
+      213: 6682757111676450967
+    second: Death_Medium_169
+  - first:
+      213: 4310141953705835954
+    second: Death_Medium_170
+  - first:
+      213: -1613722458025416574
+    second: Death_Medium_171
+  - first:
+      213: 882723669699475835
+    second: Death_Medium_172
+  - first:
+      213: -370785994322440431
+    second: Death_Medium_173
+  - first:
+      213: 9164235655773209959
+    second: Death_Medium_174
+  - first:
+      213: -4262540312481004023
+    second: Death_Medium_175
+  - first:
+      213: 6803453862616158609
+    second: Death_Medium_176
+  - first:
+      213: 6403622980128363901
+    second: Death_Medium_177
+  - first:
+      213: -3526974645085426693
+    second: Death_Medium_178
+  - first:
+      213: -4646529833799870815
+    second: Death_Medium_179
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Death_Medium_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b58b0e5dad7a6f60800000000000000
+      internalID: 8028367469301958067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ed8c5445731f8d0800000000000000
+      internalID: -2814407457042276723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55abb1cc285b1b360800000000000000
+      internalID: 7183722454007396949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746f57824804ed520800000000000000
+      internalID: 2728689360591779399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_4
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d5e56a21e8bd260800000000000000
+      internalID: 7123443446368329022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_5
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704442584a4def570800000000000000
+      internalID: 8502466949595546631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_6
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ece490f75559040800000000000000
+      internalID: 4653719794062642707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_7
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af4259ffbf57e110800000000000000
+      internalID: 1290105096391249831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_8
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b47f3f185d70fa0800000000000000
+      internalID: -5834460038114620620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_9
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4345ac2659382dbc0800000000000000
+      internalID: -3759798061270150092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_10
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20c8b659dc37d8c0800000000000000
+      internalID: -3974641241970655189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_11
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 3024
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af82fde1fbb07f7f0800000000000000
+      internalID: -578981111609218822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986f643d177cfdfc0800000000000000
+      internalID: -3467833896362117495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f1afff5fc21e740800000000000000
+      internalID: 5179470481525972858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3784473dffd226b90800000000000000
+      internalID: -7250181873325553549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_15
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ac9d309a9c80c70800000000000000
+      internalID: 8937615188268010027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180d02fb2764023f0800000000000000
+      internalID: -927664064591507327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_17
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a771633b9b4cd1b10800000000000000
+      internalID: 1953934115203323770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d1151ea7eb5d780800000000000000
+      internalID: -8658805273574433383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_19
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873b95991d0fb1f30800000000000000
+      internalID: 4547493031772271480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_20
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9220b12b4f0ed60800000000000000
+      internalID: 7917597190711814637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_21
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f56a911452303b50800000000000000
+      internalID: 6570807192987526640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_22
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543c8addc20048a50800000000000000
+      internalID: 6522338353036706629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_23
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 2808
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6540884e32ee807c0800000000000000
+      internalID: -4104769222422821802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77758b12059805e0800000000000000
+      internalID: -1943139402926164101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82c5cbe2ba7800e0800000000000000
+      internalID: -2303456300521635187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2014c4373909ac00800000000000000
+      internalID: 912270532232351789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_27
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bd25d4ba1768890800000000000000
+      internalID: -7456147152514655406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9396b7cba78d000800000000000000
+      internalID: 60933544912435707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_29
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b681987409f7bc0800000000000000
+      internalID: -3783146525050770537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_30
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f13bc367df6a480800000000000000
+      internalID: -8888138130302755003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_31
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cff09a81491cff0800000000000000
+      internalID: -17570089896248251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_32
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95f3485b8247ca20800000000000000
+      internalID: 3082505636207130014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_33
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd2245de21fb46b0800000000000000
+      internalID: -5310886152104694347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_34
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79f4bc03fec50f60800000000000000
+      internalID: 8000027856379115902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_35
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 2592
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c188d5c61f6272090800000000000000
+      internalID: -8059430189809170404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d6c82de045d8660800000000000000
+      internalID: 7389654986223545708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3f6e0373ebac0f0800000000000000
+      internalID: -1095854415058373687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97b6d6be5b097830800000000000000
+      internalID: 4069296239728310172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851f578053047def0800000000000000
+      internalID: -83527471563673256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_40
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c78897634a7ed30800000000000000
+      internalID: 4460714509807942744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_41
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e74bd1cc3c48ca0800000000000000
+      internalID: -6015467920821027222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_42
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229347262f5f4a410800000000000000
+      internalID: 1487584198321781026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_43
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a31b505202796cd0800000000000000
+      internalID: -2564393158547139679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_44
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298445e3f6f0372f0800000000000000
+      internalID: -976419723747768174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_45
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678bcc2daa5ef9490800000000000000
+      internalID: -7737213112955389834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_46
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6feaca59f909770800000000000000
+      internalID: 8615561552355849960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_47
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 2376
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdf4c9d8846a9d30800000000000000
+      internalID: 4438970921658940915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aee2c74bd245e970800000000000000
+      internalID: 8783500157825248932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9c5bec355dc3890800000000000000
+      internalID: -7476866725414843989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_50
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1585703a61635e0800000000000000
+      internalID: -1930330500822969939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_51
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b630bb4a20e50dd0800000000000000
+      internalID: -2520361944180836685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_52
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fee09a1752092e0800000000000000
+      internalID: -2121154254393643132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_53
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930b6fa84abe81a50800000000000000
+      internalID: 6492197954793156665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_54
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f2f4b6e7bbc5d60800000000000000
+      internalID: 7880379599632150350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_55
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0069068ce9677a00800000000000000
+      internalID: 754187927189807114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_56
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b9add32f5c496d0800000000000000
+      internalID: -2984543008829301873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_57
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebeaf026f6fc2960800000000000000
+      internalID: 7578703809933405162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_58
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760c27ccbe0cd7820800000000000000
+      internalID: 2917700252585869415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_59
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 2160
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074a18728d06236b0800000000000000
+      internalID: -5318081728479124368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb8be6e81c1d7420800000000000000
+      internalID: 2629288650733226944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_61
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb3a2e1ebf22cdf0800000000000000
+      internalID: -161514143035540503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3af44a2637b0a40800000000000000
+      internalID: 5335485051051156420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_63
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c7ddfe0ae864230800000000000000
+      internalID: 3622739772136324191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_64
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef406162ef638e6a0800000000000000
+      internalID: -6419820803628071682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_65
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3a2551cf6e431c0800000000000000
+      internalID: -4524737755236621364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_66
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2c9c485915824d0800000000000000
+      internalID: -3159185435980610905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_67
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b72950a9f9321860800000000000000
+      internalID: 7499120073825134516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_68
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dde8d7014caa3b70800000000000000
+      internalID: 8879599010618863060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_69
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d632d56d9e9b0ff0800000000000000
+      internalID: -68786970438781223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_70
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe7375443790d430800000000000000
+      internalID: 3805707935887359733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_71
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 1944
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b540891af2b1c3370800000000000000
+      internalID: 8303541704352859227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d4281f200b2ef80800000000000000
+      internalID: -8078701254860976814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_73
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a332e8c650be1750800000000000000
+      internalID: 6277648817384993699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_74
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d49368b2f1c93b0800000000000000
+      internalID: -5504490372757631737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_75
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505d402344bd7a330800000000000000
+      internalID: 3722184702988440837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_76
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132634c59ceed9300800000000000000
+      internalID: 260626902061113905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_77
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3ca72849ad47f10800000000000000
+      internalID: 2266676843853300674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_78
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6094a25a2ef3e3b40800000000000000
+      internalID: 5421841244066826502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_79
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6980464b010254090800000000000000
+      internalID: -8050993502736873322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_80
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6598630ba30a25d10800000000000000
+      internalID: 2112927349115095382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_81
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b8d79d8ee939840800000000000000
+      internalID: 5229698315225762590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_82
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76c6f863afbb3240800000000000000
+      internalID: 4772618938690750077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_83
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 1728
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad903cb06860bc00800000000000000
+      internalID: 914345489039662503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fff4612cc0470f0800000000000000
+      internalID: -1120256379570880656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_85
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4967226f3b74755d0800000000000000
+      internalID: -3073909382402902380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_86
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f45ec506604a7a0800000000000000
+      internalID: -6366956962249879796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_87
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935593170b81b1ac0800000000000000
+      internalID: -3883483107584027335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_88
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd823a7090e861900800000000000000
+      internalID: 654866965262969055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_89
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ee2d0ee2ac9d260800000000000000
+      internalID: 7122946588352376421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_90
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6486f0abfc86f5d20800000000000000
+      internalID: 3269447095883360326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_91
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce690127518133b0800000000000000
+      internalID: -5534500255845224755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_92
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bb1e642f829afb0800000000000000
+      internalID: -4636129320364819649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_93
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1563e2a96219c58c0800000000000000
+      internalID: -4009169973285079471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_94
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669a3a92c847217e0800000000000000
+      internalID: -1796245156024571546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_95
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 1512
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30792f38e698d940800000000000000
+      internalID: 5321168883974500410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d275d994b1504b0800000000000000
+      internalID: -5474939769012671231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_97
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd961a5cf5d1865e0800000000000000
+      internalID: -1916249344271357477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_98
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d57a11889ad43a0800000000000000
+      internalID: -6679496270443750077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_99
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b6ed2775acb52a0800000000000000
+      internalID: -6747577139746411749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_100
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9521f25fb6f3190800000000000000
+      internalID: -7980541313876338233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_101
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49d7492112f3e760800000000000000
+      internalID: 7486093161140836685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_102
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236db6a038fc7c8b0800000000000000
+      internalID: -5131905088642886094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_103
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc6b9309c7eaadf0800000000000000
+      internalID: -168067185538011912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_104
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facfebebde27e29b0800000000000000
+      internalID: -5103014962331190097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_105
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658902de6d5e43960800000000000000
+      internalID: 7580936784035485782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_106
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7323bd4648ad0b0800000000000000
+      internalID: -5703100409402214494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_107
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 1296
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979f38f57f5b6e300800000000000000
+      internalID: 281112100821268857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1585c40039fe3cd30800000000000000
+      internalID: 4450664271416416337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_109
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44e33b015b54de00800000000000000
+      internalID: 1068579415232078924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_110
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880db2c6d6e292c90800000000000000
+      internalID: -7194167882246532984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_111
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5485312b38793e910800000000000000
+      internalID: 1865501262545639493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_112
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceb1781c63bea4c0800000000000000
+      internalID: -4274281719480074555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_113
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c809dda985400a360800000000000000
+      internalID: 7178742584630415500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_114
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1832d0ba6f16e81a0800000000000000
+      internalID: -6805394274850626687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_115
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861062834b16377f0800000000000000
+      internalID: -616041297355603608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_116
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57f299fb3d3a34f0800000000000000
+      internalID: -848298252006394017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_117
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125609e736a8f8a20800000000000000
+      internalID: 3066822031192384801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_118
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173c7fc9ff77638c0800000000000000
+      internalID: -4019893677647740047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_119
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 1080
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ea686b82d3c2e50800000000000000
+      internalID: 6785865983610760827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfc05e4052c81b90800000000000000
+      internalID: -7270847948222574636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_121
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3875a3483c5032960800000000000000
+      internalID: 7575905335462483843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_122
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1dbaef0e8bdae20800000000000000
+      internalID: 3363547773200486892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_123
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478831180e4e47700800000000000000
+      internalID: 537305908453279860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_124
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce7455bc93be6790800000000000000
+      internalID: -7534887640905777461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_125
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c9ef24e4c600de0800000000000000
+      internalID: -1368975203333399485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_126
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad35697e1b504cf00800000000000000
+      internalID: 1136039267656946650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_127
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5488c0fc7defcc970800000000000000
+      internalID: 8776669976683382853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_128
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0efe9384e60eb4c0800000000000000
+      internalID: -4269967818170106353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_129
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1a8216f71cf1bb0800000000000000
+      internalID: -4963035511503937064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_130
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186753d14e10390b0800000000000000
+      internalID: -5723228622203554175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_131
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 864
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19869f7b337aceb0800000000000000
+      internalID: -4698816561826854628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36ca9e23c26589a0800000000000000
+      internalID: -6231465918957173185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_133
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8388d6ed6881b51b0800000000000000
+      internalID: -5666908738579232712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_134
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239eff93b4f73acf0800000000000000
+      internalID: -242209993875527374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_135
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0fd13d49e35f6e0800000000000000
+      internalID: -1804467266773978892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_136
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20693c9ec63036b30800000000000000
+      internalID: 4279267837245363714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_137
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7af289a1735b4860800000000000000
+      internalID: 7515192150838147707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_138
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fc2471f33f46ae0800000000000000
+      internalID: -1556852118864605432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_139
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874568fa8398b6c60800000000000000
+      internalID: 7812488855160247416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_140
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4003eed3bc57277b0800000000000000
+      internalID: -5227986701645893628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_141
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4993b51935707b6a0800000000000000
+      internalID: -6433665487173109356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_142
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d10e409d1a05df0800000000000000
+      internalID: -193476830515159791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_143
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 648
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513526020e60f5d40800000000000000
+      internalID: 5575182423393719061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cc899b08af89210800000000000000
+      internalID: 1340096319919279246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_145
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d676da56eeda4d0800000000000000
+      internalID: -3121576846229541581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_146
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a7d3224ec9b9710800000000000000
+      internalID: 1701125787903425063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_147
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24afc4f471c727fa0800000000000000
+      internalID: -5804440530170611134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_148
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b21b55e758f11a0800000000000000
+      internalID: -6836598931675075687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_149
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536482f4f808ed000800000000000000
+      internalID: 62628797826483765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_150
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0e7154fd9fe3540800000000000000
+      internalID: 4989700174505304230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_151
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec3242fb166ab240800000000000000
+      internalID: 4808267822386003169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_152
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af196b53b8f566290800000000000000
+      internalID: -7897519845041335814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_153
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92200f3340afc340800000000000000
+      internalID: 4886300331400503963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_154
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ce85d604028ee50800000000000000
+      internalID: 6838751495246638101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_155
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 432
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622c42195ff3c13f0800000000000000
+      internalID: -928797099210522074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a405a5e22ca5730800000000000000
+      internalID: 3988713924329491019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_157
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b45e0ede1ce3c770800000000000000
+      internalID: 8630000928290657465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_158
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3140fe6896a84a0800000000000000
+      internalID: -6590339076446743584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_159
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e1e4e60fac5cc30800000000000000
+      internalID: 4379129346679250523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_160
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6fa66817c286280800000000000000
+      internalID: -9049934585102928178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_161
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42da05663f708d7f0800000000000000
+      internalID: -587711009396839132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_162
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cf277d64df7d770800000000000000
+      internalID: 8635649291210390546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_163
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537c9b395bf7a2d90800000000000000
+      internalID: -7121739442888784075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_164
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fb78d66484d0520800000000000000
+      internalID: 2669869621423095660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_165
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60c57610b9e8af20800000000000000
+      internalID: 3434251658370334827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_166
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504252510efb0c0c0800000000000000
+      internalID: -4557431853750606843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_167
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 216
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a576734240d943c0800000000000000
+      internalID: -4374736579995470426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3578c9880b581ab00800000000000000
+      internalID: 838097998920320851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_169
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798b0b1bf2cedbc50800000000000000
+      internalID: 6682757111676450967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_170
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdf4225543b0db30800000000000000
+      internalID: 4310141953705835954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_171
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288235b69f7ea99e0800000000000000
+      internalID: -1613722458025416574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_172
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79344f2080104c00800000000000000
+      internalID: 882723669699475835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_173
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f88b84a14badaf0800000000000000
+      internalID: -370785994322440431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_174
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765c45456c7ed2f70800000000000000
+      internalID: 9164235655773209959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_175
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90689c17b2a68d4c0800000000000000
+      internalID: -4262540312481004023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_176
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191def6ed39ba6e50800000000000000
+      internalID: 6803453862616158609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_177
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75541e2c2d3ed850800000000000000
+      internalID: 6403622980128363901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_178
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbafdb3f3bad0fc0800000000000000
+      internalID: -3526974645085426693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Medium_179
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 384
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a69a1a0cb5348fb0800000000000000
+      internalID: -4646529833799870815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

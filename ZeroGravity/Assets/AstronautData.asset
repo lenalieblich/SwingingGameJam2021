@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cfe1fa6d30b0674390a24186cbc652d, type: 3}
   m_Name: AstronautData
   m_EditorClassIdentifier: 
-  distanceTravelled: 6.842541
-  remainingOxygen: 23.05404
-  spaceshipReached: 1
-  collectibles:
-  - {fileID: 11400000, guid: d238a6f8be573a14db198b09e3cfa617, type: 2}
+  distanceTravelled: 129.14944
+  distanceTravelledScore: 0
+  remainingOxygen: 0
+  remainingOxygenScore: 0
+  spaceshipReached: 0
+  spaceshipReachedScore: 0
+  collectibles: []
+  collectiblesScore: 0
   score: 0
